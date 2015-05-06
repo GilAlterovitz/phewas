@@ -1,0 +1,1072 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     temporal.extract.14.2.first.3.hours.category.3.healthy.controls-weka.filters.unsupervised.attribute.Remove-R1-2-weka.filters.unsupervised.attribute.ReplaceMissingValues
+Instances:    8884
+Attributes:   185
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                      Class
+Attribute                                 Y        N
+                                      (0.5)    (0.5)
+=====================================================
+gender
+  F                                   1859.0   1907.0
+  M                                   2585.0   2537.0
+  [total]                             4444.0   4444.0
+
+age
+  mean                               65.8403  63.7871
+  std. dev.                          19.1231  22.5166
+  weight sum                            4442     4442
+  precision                           0.0228   0.0228
+
+ethnicity
+  WHITE                               3175.0   3144.0
+  UNKNOWN/NOT SPECIFIED                626.0    551.0
+  PATIENT DECLINED TO ANSWER            52.0     32.0
+  OTHER                                 76.0     80.0
+  HISPANIC OR LATINO                    86.0    107.0
+  BLACK/AFRICAN AMERICAN               271.0    386.0
+  ASIAN                                 61.0     74.0
+  MULTI RACE ETHNICITY                  12.0      9.0
+  HISPANIC/LATINO - PUERTO RICAN         9.0      6.0
+  WHITE - BRAZILIAN                      6.0      3.0
+  BLACK/HAITIAN                          4.0      4.0
+  ASIAN - ASIAN INDIAN                   8.0      4.0
+  BLACK/CAPE VERDEAN                     9.0      9.0
+  PORTUGUESE                             4.0      5.0
+  WHITE - RUSSIAN                        4.0      6.0
+  ASIAN - CHINESE                        6.0      9.0
+  ASIAN - VIETNAMESE                     3.0      4.0
+  WHITE - EASTERN EUROPEAN               3.0      1.0
+  UNABLE TO OBTAIN                      29.0     14.0
+  MIDDLE EASTERN                         3.0      2.0
+  AMERICAN INDIAN/ALASKA NATIVE          3.0      1.0
+  HISPANIC/LATINO - COLOMBIAN            2.0      1.0
+  WHITE - OTHER EUROPEAN                 8.0      2.0
+  ASIAN - FILIPINO                       2.0      1.0
+  ASIAN - OTHER                          2.0      2.0
+  HISPANIC/LATINO - CUBAN                3.0      1.0
+  HISPANIC/LATINO - DOMINICAN            2.0      4.0
+  HISPANIC/LATINO - GUATEMALAN           1.0      3.0
+  ASIAN - THAI                           1.0      2.0
+  BLACK/AFRICAN                          1.0      3.0
+  CARIBBEAN ISLAND                       1.0      3.0
+  [total]                             4473.0   4473.0
+
+elix.index
+  mean                                2.3943   2.3257
+  std. dev.                           1.8187   1.7632
+  weight sum                            4442     4442
+  precision                           0.9091   0.9091
+
+50112.min
+  mean                              148.2463 153.8414
+  std. dev.                          68.7924  86.6685
+  weight sum                            4442     4442
+  precision                           3.8779   3.8779
+
+50112.median
+  mean                              149.5226  155.271
+  std. dev.                          73.7036  90.4988
+  weight sum                            4442     4442
+  precision                           3.2224   3.2224
+
+50112.max
+  mean                              151.0819 157.0505
+  std. dev.                          79.1155  96.3611
+  weight sum                            4442     4442
+  precision                           3.7495   3.7495
+
+50399.min
+  mean                                1.4337   1.4663
+  std. dev.                           1.4162   1.4432
+  weight sum                            4442     4442
+  precision                           0.6677   0.6677
+
+50399.median
+  mean                                1.4956    1.519
+  std. dev.                            1.419   1.4448
+  weight sum                            4442     4442
+  precision                            0.529    0.529
+
+50399.max
+  mean                                1.4777    1.534
+  std. dev.                           1.4156   1.4413
+  weight sum                            4442     4442
+  precision                           0.6495   0.6495
+
+50440.min
+  mean                               35.2431   33.776
+  std. dev.                          18.0461  17.0768
+  weight sum                            4442     4442
+  precision                           0.2104   0.2104
+
+50440.median
+  mean                               35.7011  34.1575
+  std. dev.                          18.4506  17.4471
+  weight sum                            4442     4442
+  precision                           0.1841   0.1841
+
+50440.max
+  mean                               36.0662  34.4724
+  std. dev.                          19.2996   18.252
+  weight sum                            4442     4442
+  precision                           0.2084   0.2084
+
+50439.min
+  mean                               14.9266  15.1216
+  std. dev.                           5.0121   6.1534
+  weight sum                            4442     4442
+  precision                            0.484    0.484
+
+50439.median
+  mean                                14.996  15.1798
+  std. dev.                           5.0648   6.1697
+  weight sum                            4442     4442
+  precision                           0.4078   0.4078
+
+50439.max
+  mean                               15.1246  15.2884
+  std. dev.                           5.2243   6.2297
+  weight sum                            4442     4442
+  precision                           0.4793   0.4793
+
+50428.min
+  mean                              253.6048 251.6495
+  std. dev.                         114.5179 109.2595
+  weight sum                            4442     4442
+  precision                           1.5163   1.5163
+
+50428.median
+  mean                              254.5499 252.6543
+  std. dev.                         114.1839 109.0189
+  weight sum                            4442     4442
+  precision                           1.2664   1.2664
+
+50428.max
+  mean                              255.7207 253.7605
+  std. dev.                         114.2995 109.2639
+  weight sum                            4442     4442
+  precision                           1.5141   1.5141
+
+50444.min
+  mean                               14.8882  14.6306
+  std. dev.                           1.8334   1.9516
+  weight sum                            4442     4442
+  precision                           0.1965   0.1965
+
+50444.median
+  mean                               14.8878  14.6244
+  std. dev.                           1.9868   1.9573
+  weight sum                            4442     4442
+  precision                           0.3258   0.3258
+
+50444.max
+  mean                                14.869  14.6179
+  std. dev.                           2.3744   1.9534
+  weight sum                            4442     4442
+  precision                           0.8056   0.8056
+
+50412.min
+  mean                               33.7544  33.8823
+  std. dev.                           1.3583   1.4827
+  weight sum                            4442     4442
+  precision                            0.141    0.141
+
+50412.median
+  mean                               33.7769  33.9003
+  std. dev.                           1.3503   1.4811
+  weight sum                            4442     4442
+  precision                           0.0971   0.0971
+
+50412.max
+  mean                               33.7898  33.9133
+  std. dev.                           1.3497   1.4841
+  weight sum                            4442     4442
+  precision                           0.1435   0.1435
+
+50411.min
+  mean                               30.2507  30.3737
+  std. dev.                           2.2567    2.563
+  weight sum                            4442     4442
+  precision                           0.2106   0.2106
+
+50411.median
+  mean                               30.2809  30.3917
+  std. dev.                           2.2546   2.5636
+  weight sum                            4442     4442
+  precision                           0.1608   0.1608
+
+50411.max
+  mean                               30.2542   30.386
+  std. dev.                           2.2547   2.5651
+  weight sum                            4442     4442
+  precision                           0.2115   0.2115
+
+50413.min
+  mean                               89.6839  89.6542
+  std. dev.                           5.9182   6.8279
+  weight sum                            4442     4442
+  precision                           1.6707   1.6707
+
+50413.median
+  mean                               89.5219  89.6094
+  std. dev.                           5.8653   6.8039
+  weight sum                            4442     4442
+  precision                           1.2387   1.2387
+
+50413.max
+  mean                               89.8194  89.8355
+  std. dev.                           5.8873   6.8324
+  weight sum                            4442     4442
+  precision                           1.6627   1.6627
+
+50383.min
+  mean                               34.8245  35.6639
+  std. dev.                           5.3009   6.1463
+  weight sum                            4442     4442
+  precision                            0.137    0.137
+
+50383.max
+  mean                               35.0829  35.9247
+  std. dev.                           5.1979   6.0521
+  weight sum                            4442     4442
+  precision                           0.1336   0.1336
+
+50383.median
+  mean                               34.9429  35.7919
+  std. dev.                           5.2268   6.0732
+  weight sum                            4442     4442
+  precision                           0.0996   0.0996
+
+50386.min
+  mean                               11.7958  12.1168
+  std. dev.                           1.8704   2.1909
+  weight sum                            4442     4442
+  precision                           0.1208   0.1208
+
+50386.median
+  mean                               11.8312  12.1526
+  std. dev.                           1.8488   2.1687
+  weight sum                            4442     4442
+  precision                           0.0751   0.0751
+
+50386.max
+  mean                               11.8719  12.1932
+  std. dev.                           1.8463   2.1695
+  weight sum                            4442     4442
+  precision                           0.1159   0.1159
+
+50442.min
+  mean                                3.9112   4.0037
+  std. dev.                           0.6152   0.7336
+  weight sum                            4442     4442
+  precision                           0.0196   0.0196
+
+50442.median
+  mean                                3.9238    4.016
+  std. dev.                           0.6081   0.7267
+  weight sum                            4442     4442
+  precision                           0.0162   0.0162
+
+50442.max
+  mean                                3.9334    4.026
+  std. dev.                           0.6058   0.7259
+  weight sum                            4442     4442
+  precision                             0.02     0.02
+
+50468.min
+  mean                               11.2063  11.7895
+  std. dev.                           7.1638  11.1462
+  weight sum                            4442     4442
+  precision                           1.4854   1.4854
+
+50468.median
+  mean                               11.1758  11.8168
+  std. dev.                           7.4204  11.1925
+  weight sum                            4442     4442
+  precision                           1.1496   1.1496
+
+50468.max
+  mean                               11.2668  11.9088
+  std. dev.                           7.7371  11.2763
+  weight sum                            4442     4442
+  precision                           1.4566   1.4566
+
+50068.min
+  mean                               15.6336  16.1692
+  std. dev.                           3.3068   4.0699
+  weight sum                            4442     4442
+  precision                           1.1556   1.1556
+
+50068.median
+  mean                               15.4999  16.0835
+  std. dev.                           3.2685   4.1105
+  weight sum                            4442     4442
+  precision                           0.7391   0.7391
+
+50068.max
+  mean                                15.709  16.2852
+  std. dev.                             3.43    4.291
+  weight sum                            4442     4442
+  precision                           1.1591   1.1591
+
+50172.min
+  mean                               24.7942  24.4561
+  std. dev.                           4.1547   4.5856
+  weight sum                            4442     4442
+  precision                                1        1
+
+50172.median
+  mean                               24.6522  24.3611
+  std. dev.                           4.1037   4.5323
+  weight sum                            4442     4442
+  precision                           0.5949   0.5949
+
+50172.max
+  mean                               24.8672  24.5333
+  std. dev.                           4.0939   4.5303
+  weight sum                            4442     4442
+  precision                                1        1
+
+50083.min
+  mean                              101.9677 101.8699
+  std. dev.                           4.8996   5.6688
+  weight sum                            4442     4442
+  precision                            1.197    1.197
+
+50083.median
+  mean                              102.1161 102.0326
+  std. dev.                           4.8478   5.5901
+  weight sum                            4442     4442
+  precision                           0.7449   0.7449
+
+50083.max
+  mean                              102.1679 102.0814
+  std. dev.                            4.904   5.6303
+  weight sum                            4442     4442
+  precision                           1.1231   1.1231
+
+50149.min
+  mean                                4.2562   4.2897
+  std. dev.                           0.6598   0.7344
+  weight sum                            4442     4442
+  precision                           0.1039   0.1039
+
+50149.median
+  mean                                 4.286   4.3237
+  std. dev.                           0.6727   0.7475
+  weight sum                            4442     4442
+  precision                           0.0664   0.0664
+
+50149.max
+  mean                                4.3026   4.3465
+  std. dev.                           0.6857   0.7784
+  weight sum                            4442     4442
+  precision                           0.1013   0.1013
+
+50159.min
+  mean                              138.0659 138.2014
+  std. dev.                           4.0259   4.7265
+  weight sum                            4442     4442
+  precision                           1.1639   1.1639
+
+50159.median
+  mean                              138.0275 138.1775
+  std. dev.                           3.9698   4.7077
+  weight sum                            4442     4442
+  precision                           0.7553   0.7553
+
+50159.max
+  mean                               138.161 138.3167
+  std. dev.                            3.912   4.6991
+  weight sum                            4442     4442
+  precision                           1.1639   1.1639
+
+50090.min
+  mean                                1.5864   1.4369
+  std. dev.                           1.5335   1.3958
+  weight sum                            4442     4442
+  precision                           0.1803   0.1803
+
+50090.median
+  mean                                1.5845   1.4334
+  std. dev.                           1.5382   1.3983
+  weight sum                            4442     4442
+  precision                           0.1335   0.1335
+
+50090.max
+  mean                                1.5931   1.4424
+  std. dev.                           1.5424   1.4029
+  weight sum                            4442     4442
+  precision                           0.1832   0.1832
+
+50177.min
+  mean                               28.5383  27.3382
+  std. dev.                          19.5485  20.4269
+  weight sum                            4442     4442
+  precision                           1.5633   1.5633
+
+50177.median
+  mean                                28.604  27.3949
+  std. dev.                          19.6151  20.4683
+  weight sum                            4442     4442
+  precision                            1.133    1.133
+
+50177.max
+  mean                               28.4711  27.3503
+  std. dev.                          19.6928  20.5355
+  weight sum                            4442     4442
+  precision                           1.5342   1.5342
+
+50333.min
+  mean                                0.0759   0.1405
+  std. dev.                           0.3068   0.7475
+  weight sum                            4442     4442
+  precision                           1.2121   1.2121
+
+50333.median
+  mean                                0.1103   0.1878
+  std. dev.                           0.3244   0.7525
+  weight sum                            4442     4442
+  precision                           0.9756   0.9756
+
+50333.max
+  mean                                0.0767   0.1424
+  std. dev.                           0.3082   0.7491
+  weight sum                            4442     4442
+  precision                           1.2121   1.2121
+
+50373.min
+  mean                                1.3603   1.2978
+  std. dev.                           1.2564   1.4565
+  weight sum                            4442     4442
+  precision                           0.2702   0.2702
+
+50373.median
+  mean                                1.3861   1.3143
+  std. dev.                           1.2558   1.4568
+  weight sum                            4442     4442
+  precision                           0.2316   0.2316
+
+50373.max
+  mean                                1.3645   1.3023
+  std. dev.                           1.2564   1.4564
+  weight sum                            4442     4442
+  precision                           0.2702   0.2702
+
+50417.min
+  mean                                4.6944   4.6379
+  std. dev.                           1.9104   2.3282
+  weight sum                            4442     4442
+  precision                           0.3586   0.3586
+
+50417.median
+  mean                                  4.79   4.7092
+  std. dev.                           1.9177   2.3348
+  weight sum                            4442     4442
+  precision                           0.3006   0.3006
+
+50417.max
+  mean                                4.7103   4.6542
+  std. dev.                           1.9253   2.3328
+  weight sum                            4442     4442
+  precision                           0.3586   0.3586
+
+50408.min
+  mean                               14.8749  15.4609
+  std. dev.                           6.9383   9.0631
+  weight sum                            4442     4442
+  precision                           0.2083   0.2083
+
+50408.median
+  mean                               14.8302  15.4343
+  std. dev.                           6.9333   9.0656
+  weight sum                            4442     4442
+  precision                           0.1961   0.1961
+
+50408.max
+  mean                               14.8791  15.4722
+  std. dev.                           6.9423   9.0708
+  weight sum                            4442     4442
+  precision                           0.2075   0.2075
+
+50419.min
+  mean                               76.0757  75.6712
+  std. dev.                           8.5958  11.1711
+  weight sum                            4442     4442
+  precision                           0.1748   0.1748
+
+50419.median
+  mean                               76.2151  75.7776
+  std. dev.                           8.5687  11.1579
+  weight sum                            4442     4442
+  precision                           0.1657   0.1657
+
+50419.max
+  mean                               76.2417  75.8069
+  std. dev.                           8.5718  11.1632
+  weight sum                            4442     4442
+  precision                           0.1748   0.1748
+
+line flush.IV.rx
+  TRUE                                 473.0    651.0
+  FALSE                               3971.0   3793.0
+  [total]                             4444.0   4444.0
+
+heparin.IV.rx
+  TRUE                                 260.0    204.0
+  FALSE                               4184.0   4240.0
+  [total]                             4444.0   4444.0
+
+docusate.PO.rx
+  TRUE                                 307.0    329.0
+  FALSE                               4137.0   4115.0
+  [total]                             4444.0   4444.0
+
+acetaminophen.POPR.rx
+  TRUE                                 461.0    450.0
+  FALSE                               3983.0   3994.0
+  [total]                             4444.0   4444.0
+
+insulin.SCIV.rx
+  TRUE                                 460.0    530.0
+  FALSE                               3984.0   3914.0
+  [total]                             4444.0   4444.0
+
+pantoprazole.POIV.rx
+  TRUE                                 388.0    456.0
+  FALSE                               4056.0   3988.0
+  [total]                             4444.0   4444.0
+
+atorvastatin.PO.rx
+  TRUE                                 221.0    197.0
+  FALSE                               4223.0   4247.0
+  [total]                             4444.0   4444.0
+
+aspirin.POPR.rx
+  TRUE                                 462.0    354.0
+  FALSE                               3982.0   4090.0
+  [total]                             4444.0   4444.0
+
+senna.PO.rx
+  TRUE                                 106.0    153.0
+  FALSE                               4338.0   4291.0
+  [total]                             4444.0   4444.0
+
+bisacodyl.POPR.rx
+  TRUE                                  60.0     99.0
+  FALSE                               4384.0   4345.0
+  [total]                             4444.0   4444.0
+
+clopidogrel.PO.rx
+  TRUE                                 144.0    120.0
+  FALSE                               4300.0   4324.0
+  [total]                             4444.0   4444.0
+
+kcl.POIV.rx
+  FALSE                               4108.0   4215.0
+  TRUE                                 336.0    229.0
+  [total]                             4444.0   4444.0
+
+nitroglycerine.IV.rx
+  FALSE                               4343.0   4326.0
+  TRUE                                 101.0    118.0
+  [total]                             4444.0   4444.0
+
+nitroprusside.IV.rx
+  FALSE                               4375.0   4350.0
+  TRUE                                  69.0     94.0
+  [total]                             4444.0   4444.0
+
+furosemide.POIV.rx
+  FALSE                               4327.0   4359.0
+  TRUE                                 117.0     85.0
+  [total]                             4444.0   4444.0
+
+oxycodone.PO.rx
+  FALSE                               4237.0   4328.0
+  TRUE                                 207.0    116.0
+  [total]                             4444.0   4444.0
+
+metoprolol.POIV.rx
+  FALSE                               4148.0   4200.0
+  TRUE                                 296.0    244.0
+  [total]                             4444.0   4444.0
+
+phenytoin.POIV.rx
+  FALSE                               4376.0   4280.0
+  TRUE                                  68.0    164.0
+  [total]                             4444.0   4444.0
+
+cefazolin.IV.rx
+  FALSE                               4303.0   4340.0
+  TRUE                                 141.0    104.0
+  [total]                             4444.0   4444.0
+
+lisinopril.PO.rx
+  FALSE                               4369.0   4382.0
+  TRUE                                  75.0     62.0
+  [total]                             4444.0   4444.0
+
+propofol.IV.rx
+  FALSE                               4138.0   4084.0
+  TRUE                                 306.0    360.0
+  [total]                             4444.0   4444.0
+
+nitroglycerin sl.PO.rx
+  FALSE                               4375.0   4412.0
+  TRUE                                  69.0     32.0
+  [total]                             4444.0   4444.0
+
+atropine sulfate.IV.rx
+  FALSE                               4255.0   4320.0
+  TRUE                                 189.0    124.0
+  [total]                             4444.0   4444.0
+
+zolpidem tartrate.PO.rx
+  FALSE                               4372.0   4397.0
+  TRUE                                  72.0     47.0
+  [total]                             4444.0   4444.0
+
+morphine.MULTI.rx
+  FALSE                               4198.0   4181.0
+  TRUE                                 246.0    263.0
+  [total]                             4444.0   4444.0
+
+eptifibatide.IV.rx
+  FALSE                               4364.0   4372.0
+  TRUE                                  80.0     72.0
+  [total]                             4444.0   4444.0
+
+levofloxacin.POIV.rx
+  FALSE                               4343.0   4341.0
+  TRUE                                 101.0    103.0
+  [total]                             4444.0   4444.0
+
+lansoprazole.PO.rx
+  FALSE                               4406.0   4394.0
+  TRUE                                  38.0     50.0
+  [total]                             4444.0   4444.0
+
+calcium gluconate.IV.rx
+  FALSE                               4274.0   4310.0
+  TRUE                                 170.0    134.0
+  [total]                             4444.0   4444.0
+
+magnesium sulfate.IV.rx
+  FALSE                               4173.0   4244.0
+  TRUE                                 271.0    200.0
+  [total]                             4444.0   4444.0
+
+levothyroxine.POIV.rx
+  FALSE                               4383.0   4395.0
+  TRUE                                  61.0     49.0
+  [total]                             4444.0   4444.0
+
+glycopyrrolate.IV.rx
+  FALSE                               4339.0   4388.0
+  TRUE                                 105.0     56.0
+  [total]                             4444.0   4444.0
+
+neostigmine.IV.rx
+  FALSE                               4340.0   4388.0
+  TRUE                                 104.0     56.0
+  [total]                             4444.0   4444.0
+
+metoclopramide.POIV.rx
+  FALSE                               4325.0   4378.0
+  TRUE                                 119.0     66.0
+  [total]                             4444.0   4444.0
+
+midazolam.IV.rx
+  FALSE                               4377.0   4334.0
+  TRUE                                  67.0    110.0
+  [total]                             4444.0   4444.0
+
+ranitidine.PO.rx
+  FALSE                               4324.0   4375.0
+  TRUE                                 120.0     69.0
+  [total]                             4444.0   4444.0
+
+nitroglycerin.IV.rx
+  FALSE                               4279.0   4310.0
+  TRUE                                 165.0    134.0
+  [total]                             4444.0   4444.0
+
+phenylephrine.IV.rx
+  FALSE                               4319.0   4364.0
+  TRUE                                 125.0     80.0
+  [total]                             4444.0   4444.0
+
+meperidine.IVIM.rx
+  FALSE                               4365.0   4393.0
+  TRUE                                  79.0     51.0
+  [total]                             4444.0   4444.0
+
+sucralfate.PO.rx
+  FALSE                               4339.0   4385.0
+  TRUE                                 105.0     59.0
+  [total]                             4444.0   4444.0
+
+acetylcysteine.POIV.rx
+  FALSE                               4388.0   4403.0
+  TRUE                                  56.0     41.0
+  [total]                             4444.0   4444.0
+
+fentanyl.IV.rx
+  FALSE                               4356.0   4271.0
+  TRUE                                  88.0    173.0
+  [total]                             4444.0   4444.0
+
+ondansetron.POIV.rx
+  FALSE                               4380.0   4368.0
+  TRUE                                  64.0     76.0
+  [total]                             4444.0   4444.0
+
+dopamine.IV.rx
+  FALSE                               4372.0   4361.0
+  TRUE                                  72.0     83.0
+  [total]                             4444.0   4444.0
+
+vancomycin.IV.rx
+  FALSE                               4300.0   4368.0
+  TRUE                                 144.0     76.0
+  [total]                             4444.0   4444.0
+
+levophed.IV.rx
+  FALSE                               4397.0   4399.0
+  TRUE                                  47.0     45.0
+  [total]                             4444.0   4444.0
+
+integrelin.IV.rx
+  FALSE                               4347.0   4343.0
+  TRUE                                  97.0    101.0
+  [total]                             4444.0   4444.0
+
+lorazepam.MULTI.rx
+  FALSE                               4333.0   4287.0
+  TRUE                                 111.0    157.0
+  [total]                             4444.0   4444.0
+
+methylprednisolone.POIV.rx
+  FALSE                               4392.0   4400.0
+  TRUE                                  52.0     44.0
+  [total]                             4444.0   4444.0
+
+neosynephrine.IV.rx
+  FALSE                               4359.0   4386.0
+  TRUE                                  85.0     58.0
+  [total]                             4444.0   4444.0
+
+amiodarone.POIV.rx
+  FALSE                               4367.0   4398.0
+  TRUE                                  77.0     46.0
+  [total]                             4444.0   4444.0
+
+heparin.SC.rx
+  FALSE                               4198.0   4192.0
+  TRUE                                 246.0    252.0
+  [total]                             4444.0   4444.0
+
+metronidazole.POIV.rx
+  FALSE                               4339.0   4371.0
+  TRUE                                 105.0     73.0
+  [total]                             4444.0   4444.0
+
+tincture of opium.IH.rx
+  FALSE                               4358.0   4363.0
+  TRUE                                  86.0     81.0
+  [total]                             4444.0   4444.0
+
+albuterol.IH.rx
+  FALSE                               4332.0   4331.0
+  TRUE                                 112.0    113.0
+  [total]                             4444.0   4444.0
+
+phytonadione.MULTI.rx
+  FALSE                               4413.0   4401.0
+  TRUE                                  31.0     43.0
+  [total]                             4444.0   4444.0
+
+folic acid.POIV.rx
+  FALSE                               4393.0   4375.0
+  TRUE                                  51.0     69.0
+  [total]                             4444.0   4444.0
+
+multivitamins.POIV.rx
+  FALSE                               4377.0   4391.0
+  TRUE                                  67.0     53.0
+  [total]                             4444.0   4444.0
+
+famotidine.POIV.rx
+  FALSE                               4362.0   4243.0
+  TRUE                                  82.0    201.0
+  [total]                             4444.0   4444.0
+
+piperacillin-tazobactam.IV.rx
+  FALSE                               4390.0   4422.0
+  TRUE                                  54.0     22.0
+  [total]                             4444.0   4444.0
+
+simvastatin.PO.rx
+  FALSE                               4396.0   4405.0
+  TRUE                                  48.0     39.0
+  [total]                             4444.0   4444.0
+
+dextrose 50%.IV.rx
+  FALSE                               4376.0   4403.0
+  TRUE                                  68.0     41.0
+  [total]                             4444.0   4444.0
+
+influenza virus vaccine.IM.rx
+  FALSE                               4396.0   4374.0
+  TRUE                                  48.0     70.0
+  [total]                             4444.0   4444.0
+
+RT/LEFT HEART CARD CATH.cpt
+  TRUE                                  21.0     17.0
+  FALSE                               4423.0   4427.0
+  [total]                             4444.0   4444.0
+
+CORONAR ARTERIOGR-2 CATH .cpt
+  TRUE                                  33.0     19.0
+  FALSE                               4411.0   4425.0
+  [total]                             4444.0   4444.0
+
+LT HEART ANGIOCARDIOGRAM .cpt
+  TRUE                                  15.0      9.0
+  FALSE                               4429.0   4435.0
+  [total]                             4444.0   4444.0
+
+CONTINUOUS INVASIVE MECH .cpt
+  FALSE                               4409.0   4361.0
+  TRUE                                  35.0     83.0
+  [total]                             4444.0   4444.0
+
+SPINAL TAP.cpt
+  FALSE                               4440.0   4433.0
+  TRUE                                   4.0     11.0
+  [total]                             4444.0   4444.0
+
+INSERT ENDOTRACHEAL TUBE .cpt
+  FALSE                               4419.0   4376.0
+  TRUE                                  25.0     68.0
+  [total]                             4444.0   4444.0
+
+ARTERIAL CATHETERIZATION .cpt
+  FALSE                               4434.0   4414.0
+  TRUE                                  10.0     30.0
+  [total]                             4444.0   4444.0
+
+LEFT HEART CARDIAC CATH.cpt
+  FALSE                               4431.0   4436.0
+  TRUE                                  13.0      8.0
+  [total]                             4444.0   4444.0
+
+DX ULTRASOUND-HEART.cpt
+  FALSE                               4434.0   4437.0
+  TRUE                                  10.0      7.0
+  [total]                             4444.0   4444.0
+
+PERCUTANEOUS ABDOM DRAIN .cpt
+  FALSE                               4437.0   4439.0
+  TRUE                                   7.0      5.0
+  [total]                             4444.0   4444.0
+
+VENOUS CATHETER NEC.cpt
+  FALSE                               4413.0   4395.0
+  TRUE                                  31.0     49.0
+  [total]                             4444.0   4444.0
+
+ENDOVASCULAR EMBOL/OCCLU .cpt
+  FALSE                               4439.0   4442.0
+  TRUE                                   5.0      2.0
+  [total]                             4444.0   4444.0
+
+PULMON ART WEDGE MONITOR .cpt
+  FALSE                               4438.0   4434.0
+  TRUE                                   6.0     10.0
+  [total]                             4444.0   4444.0
+
+PERITONEAL ADHESIOLYSIS.cpt
+  FALSE                               4438.0   4442.0
+  TRUE                                   6.0      2.0
+  [total]                             4444.0   4444.0
+
+1 INT MAM-COR ART BYPASS .cpt
+  FALSE                               4431.0   4428.0
+  TRUE                                  13.0     16.0
+  [total]                             4444.0   4444.0
+
+(AORTO)CORONARY BYPASS T .cpt
+  FALSE                               4432.0   4430.0
+  TRUE                                  12.0     14.0
+  [total]                             4444.0   4444.0
+
+EXTRACORPOREAL CIRCULAT.cpt
+  FALSE                               4424.0   4429.0
+  TRUE                                  20.0     15.0
+  [total]                             4444.0   4444.0
+
+PULSATION BALLOON IMPLAN .cpt
+  FALSE                               4435.0   4438.0
+  TRUE                                   9.0      6.0
+  [total]                             4444.0   4444.0
+
+INJ/INF PLATELET INHIBIT .cpt
+  FALSE                               4433.0   4433.0
+  TRUE                                  11.0     11.0
+  [total]                             4444.0   4444.0
+
+PARENTERAL INFUS CONC NU .cpt
+  FALSE                               4438.0   4438.0
+  TRUE                                   6.0      6.0
+  [total]                             4444.0   4444.0
+
+SERUM TRANSFUSION NEC.cpt
+  FALSE                               4434.0   4430.0
+  TRUE                                  10.0     14.0
+  [total]                             4444.0   4444.0
+
+EXT INFUS CONC NUTRITION .cpt
+  FALSE                               4427.0   4430.0
+  TRUE                                  17.0     14.0
+  [total]                             4444.0   4444.0
+
+PTCA W/O THROMBOLYTIC AG .cpt
+  FALSE                               4438.0   4435.0
+  TRUE                                   6.0      9.0
+  [total]                             4444.0   4444.0
+
+INSERT CORON ARTER STENT .cpt
+  FALSE                               4438.0   4436.0
+  TRUE                                   6.0      8.0
+  [total]                             4444.0   4444.0
+
+HEMODIALYSIS.cpt
+  FALSE                               4434.0   4436.0
+  TRUE                                  10.0      8.0
+  [total]                             4444.0   4444.0
+
+SPINAL CANAL EXPLOR NEC.cpt
+  FALSE                               4439.0   4441.0
+  TRUE                                   5.0      3.0
+  [total]                             4444.0   4444.0
+
+PACKED CELL TRANSFUSION.cpt
+  FALSE                               4410.0   4411.0
+  TRUE                                  34.0     33.0
+  [total]                             4444.0   4444.0
+
+ANGIOPLASTY OR ATHERECTO .cpt
+  FALSE                               4431.0   4442.0
+  TRUE                                  13.0      2.0
+  [total]                             4444.0   4444.0
+
+CONTR CEREBR ARTERIOGRAM .cpt
+  FALSE                               4439.0   4438.0
+  TRUE                                   5.0      6.0
+  [total]                             4444.0   4444.0
+
+INSERT INTERCOSTAL CATH.cpt
+  FALSE                               4435.0   4436.0
+  TRUE                                   9.0      8.0
+  [total]                             4444.0   4444.0
+
+PLATELET TRANSFUSION.cpt
+  FALSE                               4436.0   4431.0
+  TRUE                                   8.0     13.0
+  [total]                             4444.0   4444.0
+
+SKIN SUTURE NEC.cpt
+  FALSE                               4439.0   4432.0
+  TRUE                                   5.0     12.0
+  [total]                             4444.0   4444.0
+
+INFUSION OF VASOPRESSOR.cpt
+  FALSE                               4440.0   4440.0
+  TRUE                                   4.0      4.0
+  [total]                             4444.0   4444.0
+
+CONTRAST ARTERIOGRAM-LEG .cpt
+  FALSE                               4435.0   4441.0
+  TRUE                                   9.0      3.0
+  [total]                             4444.0   4444.0
+
+SM BOWEL ENDOSCOPY NEC.cpt
+  FALSE                               4435.0   4424.0
+  TRUE                                   9.0     20.0
+  [total]                             4444.0   4444.0
+
+ENDOSCOPIC BRONCHIAL BX- .cpt
+  FALSE                               4435.0   4437.0
+  TRUE                                   9.0      7.0
+  [total]                             4444.0   4444.0
+
+RESP TRACT INTUBAT NEC.cpt
+  FALSE                               4441.0   4438.0
+  TRUE                                   3.0      6.0
+  [total]                             4444.0   4444.0
+
+NON-INVASIVE MECHANICAL.cpt
+  FALSE                               4440.0   4438.0
+  TRUE                                   4.0      6.0
+  [total]                             4444.0   4444.0
+
+CORONAR ARTERIOGR-1 CATH .cpt
+  FALSE                               4441.0   4437.0
+  TRUE                                   3.0      7.0
+  [total]                             4444.0   4444.0
+
+THORACENTESIS.cpt
+  FALSE                               4440.0   4440.0
+  TRUE                                   4.0      4.0
+  [total]                             4444.0   4444.0
+
+PERCUTANEOUS TRANSLUMINA .cpt
+  FALSE                               4442.0   4439.0
+  TRUE                                   2.0      5.0
+  [total]                             4444.0   4444.0
+
+INSERT DRUG-ELUT CORONA.cpt
+  FALSE                               4440.0   4441.0
+  TRUE                                   4.0      3.0
+  [total]                             4444.0   4444.0
+
+
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5041               56.7425 %
+Incorrectly Classified Instances      3843               43.2575 %
+Kappa statistic                          0.1348
+Mean absolute error                      0.431 
+Root mean squared error                  0.6316
+Relative absolute error                 86.1904 %
+Root relative squared error            126.3179 %
+Total Number of Instances             8884     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.796     0.661      0.546     0.796     0.648      0.627    Y
+                 0.339     0.204      0.624     0.339     0.439      0.627    N
+Weighted Avg.    0.567     0.433      0.585     0.567     0.544      0.627
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3535  907 |    a = Y
+ 2936 1506 |    b = N
+

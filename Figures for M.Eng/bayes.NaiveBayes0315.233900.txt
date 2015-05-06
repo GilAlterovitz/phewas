@@ -1,0 +1,802 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     temporal.extract.14.2.first.3.hours.category.3.healthy.controls-weka.filters.unsupervised.attribute.Remove-R1-2-weka.filters.unsupervised.attribute.ReplaceMissingValues_principal components-weka.filters.unsupervised.attribute.PrincipalComponents-R0.95-A5-M-1
+Instances:    8884
+Attributes:   127
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                                                                                                                                                                             Class
+Attribute                                                                                                                                                                                                        Y       N
+                                                                                                                                                                                                             (0.5)   (0.5)
+===========================================================================================================================================================================================================================
+-0.268neostigmine.IV.rx-0.268glycopyrrolate.IV.rx-0.264sucralfate.PO.rx-0.255metoclopramide.POIV.rx-0.248phenylephrine.IV.rx...
+  mean                                                                                                                                                                                                      -0.1402  0.1402
+  std. dev.                                                                                                                                                                                                   3.714  2.9054
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0033  0.0033
+
+0.24750386.median+0.24650386.max+0.24550386.min+0.22250383.median+0.22150383.max...
+  mean                                                                                                                                                                                                      -0.2211  0.2211
+  std. dev.                                                                                                                                                                                                  3.0926   3.471
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0034  0.0034
+
+0.22450068.max+0.22450068.median+0.22250068.min+0.17350419.median+0.17350419.min...
+  mean                                                                                                                                                                                                      -0.1548  0.1548
+  std. dev.                                                                                                                                                                                                  2.6289  3.2026
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0047  0.0047
+
+-0.29550411.median-0.29550411.max-0.29550411.min-0.27150413.median-0.27150413.min...
+  mean                                                                                                                                                                                                       0.0885 -0.0885
+  std. dev.                                                                                                                                                                                                  2.4438  2.7441
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0047  0.0047
+
+0.22750419.max+0.22750419.median+0.22650419.min+0.21750411.max+0.21650411.median...
+  mean                                                                                                                                                                                                       0.0163 -0.0163
+  std. dev.                                                                                                                                                                                                  2.2847  2.7175
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0046  0.0046
+
+0.24850083.median+0.24850083.max+0.24550083.min+0.19750159.max+0.19650159.median...
+  mean                                                                                                                                                                                                      -0.0656  0.0656
+  std. dev.                                                                                                                                                                                                  2.2258    2.39
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0051  0.0051
+
+-0.31950439.median-0.31950399.median-0.31850399.max-0.31850439.min-0.31850399.min...
+  mean                                                                                                                                                                                                      -0.0108  0.0108
+  std. dev.                                                                                                                                                                                                  2.0831  2.3866
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0076  0.0076
+
+0.23750159.median+0.23750159.max+0.23550159.min+0.21550083.median+0.21450083.max...
+  mean                                                                                                                                                                                                       -0.035  0.0349
+  std. dev.                                                                                                                                                                                                  2.1712  2.2341
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0037  0.0037
+
+-0.26850172.min-0.26750172.median-0.26550172.max+0.16950412.max+0.16650412.median...
+  mean                                                                                                                                                                                                      -0.0779  0.0779
+  std. dev.                                                                                                                                                                                                  1.9225  2.1263
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0031  0.0031
+
+-0.374CORONAR ARTERIOGR-2 CATH .cpt-0.356RT/LEFT HEART CARD CATH.cpt+0.303INJ/INF PLATELET INHIBIT .cpt+0.301PTCA W/O THROMBOLYTIC AG .cpt+0.292INSERT CORON ARTER STENT .cpt...
+  mean                                                                                                                                                                                                       0.1017 -0.1017
+  std. dev.                                                                                                                                                                                                  1.9503  2.0061
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0063  0.0063
+
+0.28 50468.median+0.27950468.max+0.27950468.min+0.25 50428.max+0.24950428.median...
+  mean                                                                                                                                                                                                      -0.1446  0.1445
+  std. dev.                                                                                                                                                                                                  1.7767  1.9999
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0071  0.0071
+
+0.21250428.median+0.21250428.min+0.21150428.max+0.16650440.min+0.16650440.median...
+  mean                                                                                                                                                                                                       0.0868 -0.0867
+  std. dev.                                                                                                                                                                                                  1.6747  1.9099
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0054  0.0054
+
+-0.31850333.max-0.31750333.median-0.31650333.min-0.21850373.min-0.21850373.median...
+  mean                                                                                                                                                                                                       0.0579 -0.0579
+  std. dev.                                                                                                                                                                                                  1.3773  2.0475
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0126  0.0126
+
+0.45 1 INT MAM-COR ART BYPASS .cpt+0.445(AORTO)CORONARY BYPASS T .cpt+0.445EXTRACORPOREAL CIRCULAT.cpt+0.216PLATELET TRANSFUSION.cpt+0.201SERUM TRANSFUSION NEC.cpt...
+  mean                                                                                                                                                                                                       0.0243 -0.0243
+  std. dev.                                                                                                                                                                                                  1.6375  1.7888
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0058  0.0058
+
+0.32750112.median+0.32350112.max+0.31850112.min-0.25150468.min-0.2550468.median...
+  mean                                                                                                                                                                                                      -0.0468  0.0469
+  std. dev.                                                                                                                                                                                                  1.4549  1.8414
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.007   0.007
+
+-0.29350333.min-0.29350333.median-0.29250333.max-0.25550417.median-0.25550417.max...
+  mean                                                                                                                                                                                                       -0.001   0.001
+  std. dev.                                                                                                                                                                                                  1.3283  1.8578
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0088  0.0088
+
+0.26650417.median+0.26650417.max+0.26650417.min+0.20750149.median-0.20650468.max...
+  mean                                                                                                                                                                                                      -0.0342  0.0342
+  std. dev.                                                                                                                                                                                                  1.4754  1.6958
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0069  0.0069
+
+0.23250440.median+0.23 50440.min+0.22850440.max-0.20750333.max-0.20750333.median...
+  mean                                                                                                                                                                                                       0.0096 -0.0096
+  std. dev.                                                                                                                                                                                                  1.3895  1.7054
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0068  0.0068
+
+0.296INSERT ENDOTRACHEAL TUBE .cpt+0.283CONTINUOUS INVASIVE MECH .cpt+0.202PACKED CELL TRANSFUSION.cpt+0.197SERUM TRANSFUSION NEC.cpt-0.19150440.max...
+  mean                                                                                                                                                                                                      -0.0181  0.0181
+  std. dev.                                                                                                                                                                                                   1.395  1.6645
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0042  0.0042
+
+-0.34650149.median-0.34250149.min-0.33850149.max+0.20550428.min+0.20550428.median...
+  mean                                                                                                                                                                                                       0.0796 -0.0796
+  std. dev.                                                                                                                                                                                                  1.3834  1.5709
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0043  0.0043
+
+0.30850444.median+0.30450444.max+0.29150444.min-0.24350112.median-0.24250112.min...
+  mean                                                                                                                                                                                                       0.0473 -0.0473
+  std. dev.                                                                                                                                                                                                  1.3987  1.5456
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0039  0.0039
+
+-0.37450373.median-0.37450373.min-0.37450373.max-0.16950468.max-0.16850468.median...
+  mean                                                                                                                                                                                                      -0.0305  0.0306
+  std. dev.                                                                                                                                                                                                  1.3353  1.5466
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.006   0.006
+
+-0.254ethnicity=WHITE+0.238fentanyl.IV.rx+0.229midazolam.IV.rx+0.225eptifibatide.IV.rx+0.201integrelin.IV.rx...
+  mean                                                                                                                                                                                                      -0.0241  0.0241
+  std. dev.                                                                                                                                                                                                  1.3577  1.4238
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0027  0.0027
+
+-0.291SERUM TRANSFUSION NEC.cpt-0.29PLATELET TRANSFUSION.cpt+0.25 INSERT ENDOTRACHEAL TUBE .cpt+0.223CONTINUOUS INVASIVE MECH .cpt-0.211PACKED CELL TRANSFUSION.cpt...
+  mean                                                                                                                                                                                                      -0.0269  0.0269
+  std. dev.                                                                                                                                                                                                  1.2738  1.4269
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0034  0.0034
+
+-0.448ethnicity=WHITE+0.246ethnicity=BLACK/AFRICAN AMERICAN+0.245ethnicity=UNKNOWN/NOT SPECIFIED+0.199famotidine.POIV.rx-0.187age...
+  mean                                                                                                                                                                                                      -0.0485  0.0485
+  std. dev.                                                                                                                                                                                                  1.2995  1.3762
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0033  0.0033
+
+-0.28ethnicity=WHITE+0.257levofloxacin.POIV.rx+0.233ethnicity=UNKNOWN/NOT SPECIFIED+0.224metronidazole.POIV.rx+0.216senna.PO.rx...
+  mean                                                                                                                                                                                                       0.0953 -0.0953
+  std. dev.                                                                                                                                                                                                  1.3183   1.324
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0028  0.0028
+
+-0.386CONTRAST ARTERIOGRAM-LEG .cpt-0.324ANGIOPLASTY OR ATHERECTO .cpt+0.237tincture of opium.IH.rx+0.23 albuterol.IH.rx-0.227ethnicity=HISPANIC/LATINO - DOMINICAN...
+  mean                                                                                                                                                                                                      -0.0575  0.0574
+  std. dev.                                                                                                                                                                                                  1.4307  1.1279
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0061  0.0061
+
+0.257LEFT HEART CARDIAC CATH.cpt+0.247ethnicity=WHITE-0.241tincture of opium.IH.rx-0.239INSERT DRUG-ELUT CORONA.cpt-0.215LT HEART ANGIOCARDIOGRAM .cpt...
+  mean                                                                                                                                                                                                       0.0019 -0.0019
+  std. dev.                                                                                                                                                                                                  1.2988  1.2349
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0044  0.0044
+
+0.415LEFT HEART CARDIAC CATH.cpt+0.345CORONAR ARTERIOGR-1 CATH .cpt-0.33PTCA W/O THROMBOLYTIC AG .cpt-0.26INSERT CORON ARTER STENT .cpt+0.249PERCUTANEOUS TRANSLUMINA .cpt...
+  mean                                                                                                                                                                                                       0.0234 -0.0233
+  std. dev.                                                                                                                                                                                                  1.2335  1.2888
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0059  0.0059
+
+-0.294bisacodyl.POPR.rx-0.283senna.PO.rx-0.251docusate.PO.rx-0.238CONTRAST ARTERIOGRAM-LEG .cpt-0.23ANGIOPLASTY OR ATHERECTO .cpt...
+  mean                                                                                                                                                                                                      -0.0192  0.0192
+  std. dev.                                                                                                                                                                                                  1.2202  1.2742
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0033  0.0033
+
+-0.487INSERT DRUG-ELUT CORONA.cpt-0.325PERCUTANEOUS TRANSLUMINA .cpt-0.26LT HEART ANGIOCARDIOGRAM .cpt+0.221PTCA W/O THROMBOLYTIC AG .cpt+0.215INSERT CORON ARTER STENT .cpt...
+  mean                                                                                                                                                                                                      -0.0065  0.0065
+  std. dev.                                                                                                                                                                                                  1.1623  1.2992
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0066  0.0066
+
+0.26650444.max+0.25750444.median+0.22850444.min+0.21 50412.median+0.20950412.max...
+  mean                                                                                                                                                                                                        0.017  -0.017
+  std. dev.                                                                                                                                                                                                  1.2103   1.196
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0035  0.0035
+
+0.336folic acid.POIV.rx+0.298multivitamins.POIV.rx-0.283metronidazole.POIV.rx+0.253tincture of opium.IH.rx+0.235albuterol.IH.rx...
+  mean                                                                                                                                                                                                      -0.0261  0.0261
+  std. dev.                                                                                                                                                                                                  1.1682  1.2093
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.002   0.002
+
+0.272multivitamins.POIV.rx+0.249folic acid.POIV.rx+0.232PERCUTANEOUS ABDOM DRAIN .cpt+0.2  PULMON ART WEDGE MONITOR .cpt+0.199THORACENTESIS.cpt...
+  mean                                                                                                                                                                                                      -0.0042  0.0042
+  std. dev.                                                                                                                                                                                                  1.1402  1.2127
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0039  0.0039
+
+-0.302HEMODIALYSIS.cpt-0.275THORACENTESIS.cpt-0.26PULMON ART WEDGE MONITOR .cpt+0.189multivitamins.POIV.rx+0.187PERCUTANEOUS TRANSLUMINA .cpt...
+  mean                                                                                                                                                                                                       0.0108 -0.0109
+  std. dev.                                                                                                                                                                                                  1.1405  1.1745
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0055  0.0055
+
+-0.288ethnicity=UNKNOWN/NOT SPECIFIED+0.255SPINAL TAP.cpt-0.231age+0.216SPINAL CANAL EXPLOR NEC.cpt+0.189ethnicity=BLACK/AFRICAN AMERICAN...
+  mean                                                                                                                                                                                                       0.0361  -0.036
+  std. dev.                                                                                                                                                                                                  1.1385  1.1632
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.003   0.003
+
+-0.247INSERT INTERCOSTAL CATH.cpt-0.23ethnicity=HISPANIC/LATINO - PUERTO RICAN+0.225INSERT CORON ARTER STENT .cpt+0.218CORONAR ARTERIOGR-1 CATH .cpt-0.207SKIN SUTURE NEC.cpt...
+  mean                                                                                                                                                                                                       0.0099 -0.0099
+  std. dev.                                                                                                                                                                                                  1.1715  1.1186
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0044  0.0044
+
+0.358INSERT INTERCOSTAL CATH.cpt+0.327SKIN SUTURE NEC.cpt-0.237SPINAL TAP.cpt-0.218DX ULTRASOUND-HEART.cpt+0.213CORONAR ARTERIOGR-1 CATH .cpt...
+  mean                                                                                                                                                                                                      -0.0164  0.0165
+  std. dev.                                                                                                                                                                                                  1.1171  1.1544
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0041  0.0041
+
+-0.298SPINAL TAP.cpt+0.207PULSATION BALLOON IMPLAN .cpt-0.205SPINAL CANAL EXPLOR NEC.cpt+0.205piperacillin-tazobactam.IV.rx+0.199RESP TRACT INTUBAT NEC.cpt...
+  mean                                                                                                                                                                                                       0.0381 -0.0381
+  std. dev.                                                                                                                                                                                                  1.1406  1.1089
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0033  0.0033
+
+0.326ANGIOPLASTY OR ATHERECTO .cpt-0.296ENDOVASCULAR EMBOL/OCCLU .cpt+0.274nitroglycerine.IV.rx-0.266ethnicity=HISPANIC/LATINO - DOMINICAN+0.199CONTRAST ARTERIOGRAM-LEG .cpt...
+  mean                                                                                                                                                                                                      -0.0158  0.0159
+  std. dev.                                                                                                                                                                                                  1.1891  1.0321
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0049  0.0049
+
+-0.337piperacillin-tazobactam.IV.rx-0.325ethnicity=HISPANIC/LATINO - DOMINICAN+0.301ANGIOPLASTY OR ATHERECTO .cpt-0.268ENDOVASCULAR EMBOL/OCCLU .cpt-0.223nitroglycerine.IV.rx...
+  mean                                                                                                                                                                                                      -0.0128  0.0128
+  std. dev.                                                                                                                                                                                                  1.1766  1.0085
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0046  0.0046
+
+-0.249SKIN SUTURE NEC.cpt-0.238INSERT INTERCOSTAL CATH.cpt-0.212ethnicity=HISPANIC/LATINO - PUERTO RICAN-0.189amiodarone.POIV.rx+0.185ARTERIAL CATHETERIZATION .cpt...
+  mean                                                                                                                                                                                                      -0.0617  0.0617
+  std. dev.                                                                                                                                                                                                  1.0843  1.0949
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0029  0.0029
+
+-0.257simvastatin.PO.rx+0.245ethnicity=UNKNOWN/NOT SPECIFIED-0.235amiodarone.POIV.rx-0.203lansoprazole.PO.rx-0.196levothyroxine.POIV.rx...
+  mean                                                                                                                                                                                                      -0.0024  0.0024
+  std. dev.                                                                                                                                                                                                  1.1031  1.0633
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0032  0.0032
+
+-0.284gender+0.204phenytoin.POIV.rx-0.199nitroglycerine.IV.rx-0.193SPINAL CANAL EXPLOR NEC.cpt+0.152INFUSION OF VASOPRESSOR.cpt...
+  mean                                                                                                                                                                                                      -0.0234  0.0234
+  std. dev.                                                                                                                                                                                                  1.0602  1.0908
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+0.259SM BOWEL ENDOSCOPY NEC.cpt+0.221influenza virus vaccine.IM.rx-0.219acetylcysteine.POIV.rx-0.208PULMON ART WEDGE MONITOR .cpt-0.196ENDOSCOPIC BRONCHIAL BX- .cpt...
+  mean                                                                                                                                                                                                        0.003  -0.003
+  std. dev.                                                                                                                                                                                                  1.0386  1.0967
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0027  0.0027
+
+-0.428phytonadione.MULTI.rx+0.269nitroprusside.IV.rx-0.266PARENTERAL INFUS CONC NU .cpt-0.2ethnicity=UNABLE TO OBTAIN-0.18ARTERIAL CATHETERIZATION .cpt...
+  mean                                                                                                                                                                                                       0.0184 -0.0184
+  std. dev.                                                                                                                                                                                                  1.0469  1.0825
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0026  0.0026
+
+0.415nitroprusside.IV.rx-0.278influenza virus vaccine.IM.rx-0.231ethnicity=AMERICAN INDIAN/ALASKA NATIVE-0.21dextrose 50%.IV.rx-0.178ethnicity=ASIAN - CHINESE...
+  mean                                                                                                                                                                                                       0.0112 -0.0112
+  std. dev.                                                                                                                                                                                                  1.0743  1.0352
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.003   0.003
+
+-0.317piperacillin-tazobactam.IV.rx+0.315INFUSION OF VASOPRESSOR.cpt+0.239neosynephrine.IV.rx-0.21ethnicity=ASIAN-0.186ethnicity=OTHER...
+  mean                                                                                                                                                                                                      -0.0029  0.0029
+  std. dev.                                                                                                                                                                                                  1.1246  0.9784
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0036  0.0036
+
+-0.404elix.index-0.292ethnicity=OTHER-0.217ENDOSCOPIC BRONCHIAL BX- .cpt+0.194INFUSION OF VASOPRESSOR.cpt+0.19 lansoprazole.PO.rx...
+  mean                                                                                                                                                                                                       0.0032 -0.0032
+  std. dev.                                                                                                                                                                                                  1.0832  1.0116
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0037  0.0037
+
+-0.284ondansetron.POIV.rx-0.278ethnicity=ASIAN - OTHER-0.251elix.index-0.227ethnicity=HISPANIC/LATINO - GUATEMALAN+0.209ethnicity=ASIAN - CHINESE...
+  mean                                                                                                                                                                                                      -0.0176  0.0176
+  std. dev.                                                                                                                                                                                                  1.0516   1.033
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0038  0.0038
+
+0.318ethnicity=ASIAN - ASIAN INDIAN-0.303neosynephrine.IV.rx-0.267ethnicity=WHITE - EASTERN EUROPEAN-0.257ethnicity=ASIAN - OTHER-0.226ondansetron.POIV.rx...
+  mean                                                                                                                                                                                                       0.0146 -0.0146
+  std. dev.                                                                                                                                                                                                  1.0971  0.9734
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0037  0.0037
+
+0.43 INFUSION OF VASOPRESSOR.cpt+0.302ethnicity=OTHER-0.266ethnicity=PATIENT DECLINED TO ANSWER-0.248ethnicity=UNABLE TO OBTAIN-0.24RESP TRACT INTUBAT NEC.cpt...
+  mean                                                                                                                                                                                                      -0.0028  0.0028
+  std. dev.                                                                                                                                                                                                  1.0513  1.0048
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0035  0.0035
+
+-0.285ethnicity=WHITE - OTHER EUROPEAN+0.269ethnicity=HISPANIC OR LATINO+0.25 ethnicity=HISPANIC/LATINO - GUATEMALAN-0.213pantoprazole.POIV.rx+0.211ethnicity=PORTUGUESE...
+  mean                                                                                                                                                                                                       -0.018   0.018
+  std. dev.                                                                                                                                                                                                  1.0282  1.0247
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0033  0.0033
+
+-0.312ethnicity=WHITE - EASTERN EUROPEAN+0.26 ethnicity=ASIAN - OTHER+0.206ethnicity=PORTUGUESE-0.204ethnicity=BLACK/HAITIAN-0.195ethnicity=OTHER...
+  mean                                                                                                                                                                                                      -0.0206  0.0206
+  std. dev.                                                                                                                                                                                                  1.0775  0.9655
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0047  0.0047
+
+-0.399ethnicity=HISPANIC OR LATINO+0.29 ethnicity=BLACK/AFRICAN AMERICAN-0.231elix.index-0.212gender+0.185ethnicity=UNABLE TO OBTAIN...
+  mean                                                                                                                                                                                                      -0.0197  0.0197
+  std. dev.                                                                                                                                                                                                  1.0294  1.0091
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+-0.381ethnicity=ASIAN-0.322ethnicity=WHITE - BRAZILIAN+0.289PERITONEAL ADHESIOLYSIS.cpt+0.258SM BOWEL ENDOSCOPY NEC.cpt+0.254ethnicity=MULTI RACE ETHNICITY...
+  mean                                                                                                                                                                                                      -0.0043  0.0043
+  std. dev.                                                                                                                                                                                                  1.0725  0.9611
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0031  0.0031
+
+-0.322ethnicity=ASIAN - ASIAN INDIAN-0.319ethnicity=OTHER-0.255ethnicity=UNABLE TO OBTAIN+0.243ethnicity=WHITE - BRAZILIAN-0.233ethnicity=HISPANIC OR LATINO...
+  mean                                                                                                                                                                                                      -0.0069  0.0068
+  std. dev.                                                                                                                                                                                                  1.0573   0.971
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0028  0.0028
+
+-0.456ethnicity=HISPANIC/LATINO - GUATEMALAN+0.394ethnicity=ASIAN - OTHER-0.279ethnicity=WHITE - OTHER EUROPEAN-0.206lorazepam.MULTI.rx+0.206ethnicity=UNABLE TO OBTAIN...
+  mean                                                                                                                                                                                                       0.0033 -0.0031
+  std. dev.                                                                                                                                                                                                  0.9477  1.0722
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0067  0.0067
+
+0.286ethnicity=ASIAN+0.26 ethnicity=ASIAN - OTHER+0.255NON-INVASIVE MECHANICAL.cpt-0.25ethnicity=PATIENT DECLINED TO ANSWER-0.242ethnicity=AMERICAN INDIAN/ALASKA NATIVE...
+  mean                                                                                                                                                                                                        0.016  -0.016
+  std. dev.                                                                                                                                                                                                  1.0891  0.9265
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0039  0.0039
+
+0.48 ethnicity=WHITE - RUSSIAN+0.31 ethnicity=PORTUGUESE-0.292NON-INVASIVE MECHANICAL.cpt-0.269ethnicity=MULTI RACE ETHNICITY+0.249ethnicity=PATIENT DECLINED TO ANSWER...
+  mean                                                                                                                                                                                                       0.0082 -0.0082
+  std. dev.                                                                                                                                                                                                   1.027  0.9903
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0041  0.0041
+
+0.458ethnicity=MULTI RACE ETHNICITY+0.352ethnicity=PATIENT DECLINED TO ANSWER+0.287ethnicity=ASIAN - ASIAN INDIAN-0.199ethnicity=UNKNOWN/NOT SPECIFIED+0.196NON-INVASIVE MECHANICAL.cpt...
+  mean                                                                                                                                                                                                       0.0206 -0.0206
+  std. dev.                                                                                                                                                                                                  1.0518   0.961
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0023  0.0023
+
+0.404ethnicity=BLACK/CAPE VERDEAN-0.371ethnicity=ASIAN-0.335ethnicity=PORTUGUESE-0.301ethnicity=WHITE - BRAZILIAN-0.188ethnicity=OTHER...
+  mean                                                                                                                                                                                                       0.0048 -0.0048
+  std. dev.                                                                                                                                                                                                  1.0464  0.9647
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0032  0.0032
+
+-0.346ethnicity=PORTUGUESE-0.334ethnicity=ASIAN - FILIPINO+0.264ethnicity=AMERICAN INDIAN/ALASKA NATIVE-0.248ethnicity=CARIBBEAN ISLAND-0.242ethnicity=WHITE - OTHER EUROPEAN...
+  mean                                                                                                                                                                                                      -0.0131  0.0132
+  std. dev.                                                                                                                                                                                                  1.0882  0.9135
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0056  0.0056
+
+0.503ethnicity=ASIAN - VIETNAMESE-0.414ethnicity=BLACK/HAITIAN-0.361ethnicity=ASIAN - CHINESE+0.257ethnicity=CARIBBEAN ISLAND-0.179ethnicity=ASIAN - ASIAN INDIAN...
+  mean                                                                                                                                                                                                       0.0087 -0.0087
+  std. dev.                                                                                                                                                                                                  0.9107  1.0874
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0043  0.0043
+
+-0.517ethnicity=MIDDLE EASTERN-0.388ethnicity=WHITE - BRAZILIAN+0.353ethnicity=BLACK/AFRICAN+0.233ethnicity=ASIAN - OTHER+0.185ethnicity=CARIBBEAN ISLAND...
+  mean                                                                                                                                                                                                      -0.0095  0.0095
+  std. dev.                                                                                                                                                                                                  1.0223  0.9804
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0059  0.0059
+
+-0.405ethnicity=BLACK/CAPE VERDEAN+0.312ethnicity=MIDDLE EASTERN-0.302ethnicity=ASIAN - VIETNAMESE+0.279ethnicity=PATIENT DECLINED TO ANSWER-0.269ethnicity=ASIAN - CHINESE...
+  mean                                                                                                                                                                                                       0.0156 -0.0155
+  std. dev.                                                                                                                                                                                                   1.034  0.9672
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0035  0.0035
+
+0.543ethnicity=HISPANIC/LATINO - CUBAN-0.415ethnicity=BLACK/CAPE VERDEAN+0.335ethnicity=HISPANIC/LATINO - COLOMBIAN+0.327ethnicity=BLACK/AFRICAN-0.217ethnicity=WHITE - OTHER EUROPEAN...
+  mean                                                                                                                                                                                                       0.0032 -0.0032
+  std. dev.                                                                                                                                                                                                  1.1707  0.7957
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0053  0.0053
+
+-0.625ethnicity=CARIBBEAN ISLAND-0.472ethnicity=ASIAN - THAI-0.26ethnicity=BLACK/AFRICAN+0.206ethnicity=MULTI RACE ETHNICITY+0.176ethnicity=ASIAN - FILIPINO...
+  mean                                                                                                                                                                                                       0.0204 -0.0204
+  std. dev.                                                                                                                                                                                                  0.6452  1.2583
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0069  0.0069
+
+-0.783ethnicity=ASIAN - THAI-0.316ethnicity=ASIAN - VIETNAMESE-0.27ethnicity=ASIAN - FILIPINO+0.238ethnicity=CARIBBEAN ISLAND-0.156ethnicity=WHITE - EASTERN EUROPEAN...
+  mean                                                                                                                                                                                                       0.0003 -0.0003
+  std. dev.                                                                                                                                                                                                  0.6488  1.2565
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0101  0.0101
+
+0.713ethnicity=HISPANIC/LATINO - COLOMBIAN-0.304ethnicity=HISPANIC/LATINO - CUBAN-0.226ethnicity=CARIBBEAN ISLAND+0.199NON-INVASIVE MECHANICAL.cpt+0.183ethnicity=PORTUGUESE...
+  mean                                                                                                                                                                                                            0  0.0001
+  std. dev.                                                                                                                                                                                                  1.2278  0.7018
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0099  0.0099
+
+-0.408ethnicity=ASIAN - FILIPINO+0.325ethnicity=MULTI RACE ETHNICITY+0.285ethnicity=HISPANIC/LATINO - CUBAN+0.284ethnicity=HISPANIC/LATINO - COLOMBIAN-0.264ethnicity=ASIAN - VIETNAMESE...
+  mean                                                                                                                                                                                                       0.0111 -0.0111
+  std. dev.                                                                                                                                                                                                  1.1261  0.8531
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0073  0.0073
+
+0.423NON-INVASIVE MECHANICAL.cpt+0.36 ethnicity=HISPANIC/LATINO - CUBAN-0.322ethnicity=ASIAN - VIETNAMESE-0.258ethnicity=BLACK/AFRICAN-0.237ethnicity=HISPANIC/LATINO - COLOMBIAN...
+  mean                                                                                                                                                                                                       0.0038 -0.0038
+  std. dev.                                                                                                                                                                                                  1.0159  0.9793
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0052  0.0052
+
+0.362ethnicity=ASIAN - CHINESE+0.32 ethnicity=ASIAN - FILIPINO-0.306ethnicity=PORTUGUESE+0.291ethnicity=WHITE - RUSSIAN-0.281ethnicity=HISPANIC/LATINO - CUBAN...
+  mean                                                                                                                                                                                                      -0.0099  0.0099
+  std. dev.                                                                                                                                                                                                  1.0406   0.952
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0055  0.0055
+
+-0.483ethnicity=BLACK/AFRICAN+0.276ethnicity=ASIAN - VIETNAMESE-0.275ethnicity=UNABLE TO OBTAIN-0.272ethnicity=WHITE - RUSSIAN-0.269ethnicity=MIDDLE EASTERN...
+  mean                                                                                                                                                                                                       0.0036 -0.0036
+  std. dev.                                                                                                                                                                                                  0.9633  1.0287
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.005   0.005
+
+-0.461ethnicity=ASIAN - FILIPINO+0.286ethnicity=ASIAN - VIETNAMESE+0.261ethnicity=WHITE - OTHER EUROPEAN-0.251ethnicity=HISPANIC/LATINO - COLOMBIAN+0.249ethnicity=BLACK/HAITIAN...
+  mean                                                                                                                                                                                                      -0.0135  0.0134
+  std. dev.                                                                                                                                                                                                  1.1889  0.7547
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0063  0.0063
+
+-0.428ethnicity=ASIAN - CHINESE+0.323ethnicity=BLACK/HAITIAN+0.313ethnicity=WHITE - RUSSIAN-0.258ethnicity=BLACK/AFRICAN-0.234ethnicity=WHITE - OTHER EUROPEAN...
+  mean                                                                                                                                                                                                      -0.0175  0.0175
+  std. dev.                                                                                                                                                                                                  0.9961  0.9914
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0033  0.0033
+
+0.29 PARENTERAL INFUS CONC NU .cpt+0.287PERITONEAL ADHESIOLYSIS.cpt-0.283PERCUTANEOUS ABDOM DRAIN .cpt+0.253ethnicity=BLACK/CAPE VERDEAN-0.194ethnicity=ASIAN - CHINESE...
+  mean                                                                                                                                                                                                      -0.0002  0.0002
+  std. dev.                                                                                                                                                                                                  1.0164  0.9669
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0026  0.0026
+
+-0.243phenytoin.POIV.rx-0.228NON-INVASIVE MECHANICAL.cpt-0.226ethnicity=ASIAN - OTHER-0.219ethnicity=PORTUGUESE-0.216ethnicity=MIDDLE EASTERN...
+  mean                                                                                                                                                                                                       -0.001   0.001
+  std. dev.                                                                                                                                                                                                  0.9782  0.9975
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0029  0.0029
+
+0.302ethnicity=HISPANIC/LATINO - PUERTO RICAN-0.26ethnicity=WHITE - EASTERN EUROPEAN-0.256ethnicity=ASIAN - ASIAN INDIAN-0.228ethnicity=HISPANIC/LATINO - GUATEMALAN-0.221ethnicity=WHITE - BRAZILIAN...
+  mean                                                                                                                                                                                                      -0.0082  0.0083
+  std. dev.                                                                                                                                                                                                  1.0269  0.9396
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0034  0.0034
+
+-0.406EXT INFUS CONC NUTRITION .cpt+0.299ethnicity=AMERICAN INDIAN/ALASKA NATIVE-0.239NON-INVASIVE MECHANICAL.cpt-0.205ethnicity=HISPANIC/LATINO - PUERTO RICAN-0.202DX ULTRASOUND-HEART.cpt...
+  mean                                                                                                                                                                                                       0.0043 -0.0043
+  std. dev.                                                                                                                                                                                                    1.02  0.9437
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0034  0.0034
+
+0.277ethnicity=WHITE - EASTERN EUROPEAN+0.274methylprednisolone.POIV.rx+0.226ethnicity=HISPANIC/LATINO - PUERTO RICAN+0.226ethnicity=BLACK/HAITIAN+0.209gender...
+  mean                                                                                                                                                                                                       0.0035 -0.0035
+  std. dev.                                                                                                                                                                                                  1.0279  0.9301
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.003   0.003
+
+-0.322ethnicity=HISPANIC/LATINO - PUERTO RICAN-0.26simvastatin.PO.rx+0.234ethnicity=HISPANIC/LATINO - GUATEMALAN-0.21EXT INFUS CONC NUTRITION .cpt+0.19 ethnicity=ASIAN - OTHER...
+  mean                                                                                                                                                                                                       0.0012 -0.0012
+  std. dev.                                                                                                                                                                                                  0.9642  0.9947
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0029  0.0029
+
+0.302simvastatin.PO.rx-0.289elix.index+0.26 ethnicity=WHITE - OTHER EUROPEAN-0.248ethnicity=HISPANIC/LATINO - PUERTO RICAN-0.242ethnicity=UNABLE TO OBTAIN...
+  mean                                                                                                                                                                                                      -0.0135  0.0135
+  std. dev.                                                                                                                                                                                                  1.0193  0.9267
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0022  0.0022
+
+0.406PERITONEAL ADHESIOLYSIS.cpt+0.3  acetylcysteine.POIV.rx-0.276amiodarone.POIV.rx+0.228ethnicity=WHITE - OTHER EUROPEAN-0.215gender...
+  mean                                                                                                                                                                                                       0.0112 -0.0112
+  std. dev.                                                                                                                                                                                                  1.0461  0.8862
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0028  0.0028
+
+0.379elix.index+0.292PARENTERAL INFUS CONC NU .cpt+0.235ethnicity=ASIAN-0.218ethnicity=ASIAN - OTHER+0.204neosynephrine.IV.rx...
+  mean                                                                                                                                                                                                      -0.0054  0.0054
+  std. dev.                                                                                                                                                                                                  1.0018  0.9345
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0027  0.0027
+
+0.243ethnicity=WHITE - EASTERN EUROPEAN+0.229PERITONEAL ADHESIOLYSIS.cpt-0.216ethnicity=AMERICAN INDIAN/ALASKA NATIVE-0.206gender+0.202elix.index...
+  mean                                                                                                                                                                                                      -0.0073  0.0073
+  std. dev.                                                                                                                                                                                                  1.0135  0.9196
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0034  0.0034
+
+0.332levothyroxine.POIV.rx-0.244PERITONEAL ADHESIOLYSIS.cpt+0.211phytonadione.MULTI.rx+0.201HEMODIALYSIS.cpt-0.193PARENTERAL INFUS CONC NU .cpt...
+  mean                                                                                                                                                                                                       0.0083 -0.0084
+  std. dev.                                                                                                                                                                                                  0.9981  0.9205
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+0.241furosemide.POIV.rx+0.23 ethnicity=AMERICAN INDIAN/ALASKA NATIVE+0.221SPINAL CANAL EXPLOR NEC.cpt+0.22 SM BOWEL ENDOSCOPY NEC.cpt-0.219piperacillin-tazobactam.IV.rx...
+  mean                                                                                                                                                                                                      -0.0185  0.0184
+  std. dev.                                                                                                                                                                                                  0.9905   0.917
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0026  0.0026
+
+-0.358furosemide.POIV.rx-0.241PULSATION BALLOON IMPLAN .cpt+0.232SM BOWEL ENDOSCOPY NEC.cpt+0.2  CONTR CEREBR ARTERIOGRAM .cpt+0.197PARENTERAL INFUS CONC NU .cpt...
+  mean                                                                                                                                                                                                       -0.012   0.012
+  std. dev.                                                                                                                                                                                                   0.933  0.9686
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0023  0.0023
+
+-0.23SPINAL CANAL EXPLOR NEC.cpt-0.228ethnicity=HISPANIC/LATINO - PUERTO RICAN+0.227ondansetron.POIV.rx-0.199PERCUTANEOUS ABDOM DRAIN .cpt+0.198furosemide.POIV.rx...
+  mean                                                                                                                                                                                                       0.0284 -0.0284
+  std. dev.                                                                                                                                                                                                  0.9424  0.9547
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0022  0.0022
+
+-0.244ethnicity=HISPANIC OR LATINO+0.229lisinopril.PO.rx-0.212methylprednisolone.POIV.rx-0.186NON-INVASIVE MECHANICAL.cpt+0.185heparin.IV.rx...
+  mean                                                                                                                                                                                                       0.0038 -0.0038
+  std. dev.                                                                                                                                                                                                  0.9494  0.9407
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0026  0.0026
+
+-0.282CONTR CEREBR ARTERIOGRAM .cpt-0.274amiodarone.POIV.rx-0.267SM BOWEL ENDOSCOPY NEC.cpt-0.262ethnicity=BLACK/AFRICAN AMERICAN+0.227methylprednisolone.POIV.rx...
+  mean                                                                                                                                                                                                       0.0337 -0.0337
+  std. dev.                                                                                                                                                                                                  0.9504  0.9333
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0021  0.0021
+
+0.346lansoprazole.PO.rx-0.335amiodarone.POIV.rx-0.229levothyroxine.POIV.rx+0.217dopamine.IV.rx+0.206ethnicity=HISPANIC/LATINO - DOMINICAN...
+  mean                                                                                                                                                                                                      -0.0335  0.0335
+  std. dev.                                                                                                                                                                                                  0.9308  0.9467
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0022  0.0022
+
+-0.396phytonadione.MULTI.rx+0.274methylprednisolone.POIV.rx-0.249ondansetron.POIV.rx+0.234lorazepam.MULTI.rx+0.22 PARENTERAL INFUS CONC NU .cpt...
+  mean                                                                                                                                                                                                       0.0026 -0.0026
+  std. dev.                                                                                                                                                                                                  0.9146  0.9442
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0022  0.0022
+
+-0.327lorazepam.MULTI.rx+0.311CONTR CEREBR ARTERIOGRAM .cpt+0.236DX ULTRASOUND-HEART.cpt+0.192ethnicity=AMERICAN INDIAN/ALASKA NATIVE-0.189SPINAL CANAL EXPLOR NEC.cpt...
+  mean                                                                                                                                                                                                       0.0335 -0.0335
+  std. dev.                                                                                                                                                                                                  0.9353  0.9209
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+-0.345PERCUTANEOUS ABDOM DRAIN .cpt+0.257CONTR CEREBR ARTERIOGRAM .cpt+0.246phytonadione.MULTI.rx+0.242methylprednisolone.POIV.rx-0.23DX ULTRASOUND-HEART.cpt...
+  mean                                                                                                                                                                                                      -0.0165  0.0165
+  std. dev.                                                                                                                                                                                                   0.935  0.9109
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0022  0.0022
+
+-0.348lisinopril.PO.rx-0.297SM BOWEL ENDOSCOPY NEC.cpt+0.264PERCUTANEOUS ABDOM DRAIN .cpt+0.247nitroprusside.IV.rx+0.223metoprolol.POIV.rx...
+  mean                                                                                                                                                                                                      -0.0067  0.0067
+  std. dev.                                                                                                                                                                                                  0.9156  0.9191
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0017  0.0017
+
+-0.399CONTR CEREBR ARTERIOGRAM .cpt-0.269INSERT INTERCOSTAL CATH.cpt-0.255lisinopril.PO.rx+0.233SM BOWEL ENDOSCOPY NEC.cpt+0.187heparin.SC.rx...
+  mean                                                                                                                                                                                                       0.0088 -0.0089
+  std. dev.                                                                                                                                                                                                  0.8473  0.9801
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0026  0.0026
+
+-0.36amiodarone.POIV.rx+0.338SPINAL CANAL EXPLOR NEC.cpt-0.27HEMODIALYSIS.cpt-0.224PERCUTANEOUS ABDOM DRAIN .cpt+0.217ARTERIAL CATHETERIZATION .cpt...
+  mean                                                                                                                                                                                                      -0.0042  0.0042
+  std. dev.                                                                                                                                                                                                  0.9282  0.9009
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0027  0.0027
+
+0.342neosynephrine.IV.rx+0.319methylprednisolone.POIV.rx-0.293CONTR CEREBR ARTERIOGRAM .cpt-0.231elix.index-0.222acetylcysteine.POIV.rx...
+  mean                                                                                                                                                                                                      -0.0074  0.0074
+  std. dev.                                                                                                                                                                                                  0.9184  0.9006
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0018  0.0018
+
+0.436DX ULTRASOUND-HEART.cpt-0.274SPINAL TAP.cpt+0.229lorazepam.MULTI.rx-0.226furosemide.POIV.rx+0.219INFUSION OF VASOPRESSOR.cpt...
+  mean                                                                                                                                                                                                      -0.0058  0.0058
+  std. dev.                                                                                                                                                                                                  0.8903  0.9128
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+0.395influenza virus vaccine.IM.rx+0.286SKIN SUTURE NEC.cpt-0.211INSERT INTERCOSTAL CATH.cpt-0.208ethnicity=AMERICAN INDIAN/ALASKA NATIVE-0.201gender...
+  mean                                                                                                                                                                                                       0.0163 -0.0163
+  std. dev.                                                                                                                                                                                                  0.8881  0.9079
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+0.397influenza virus vaccine.IM.rx-0.267SKIN SUTURE NEC.cpt+0.238THORACENTESIS.cpt+0.226INSERT INTERCOSTAL CATH.cpt+0.199SPINAL TAP.cpt...
+  mean                                                                                                                                                                                                      -0.0044  0.0044
+  std. dev.                                                                                                                                                                                                  0.8747  0.9038
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0022  0.0022
+
+0.396ethnicity=HISPANIC/LATINO - DOMINICAN+0.37 ARTERIAL CATHETERIZATION .cpt-0.359ENDOVASCULAR EMBOL/OCCLU .cpt+0.254SKIN SUTURE NEC.cpt+0.209phytonadione.MULTI.rx...
+  mean                                                                                                                                                                                                      -0.0253  0.0253
+  std. dev.                                                                                                                                                                                                  0.8206  0.9447
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0041  0.0041
+
+0.346PULSATION BALLOON IMPLAN .cpt-0.291ENDOSCOPIC BRONCHIAL BX- .cpt-0.248HEMODIALYSIS.cpt+0.23 EXT INFUS CONC NUTRITION .cpt-0.215acetylcysteine.POIV.rx...
+  mean                                                                                                                                                                                                       0.0142 -0.0142
+  std. dev.                                                                                                                                                                                                  0.9147  0.8514
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0022  0.0022
+
+-0.302age-0.249ethnicity=HISPANIC/LATINO - DOMINICAN-0.247integrelin.IV.rx+0.233furosemide.POIV.rx-0.232INSERT INTERCOSTAL CATH.cpt...
+  mean                                                                                                                                                                                                      -0.0084  0.0084
+  std. dev.                                                                                                                                                                                                  0.8647  0.8877
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0023  0.0023
+
+0.389gender+0.297PULSATION BALLOON IMPLAN .cpt+0.251SPINAL TAP.cpt-0.21SPINAL CANAL EXPLOR NEC.cpt+0.202lisinopril.PO.rx...
+  mean                                                                                                                                                                                                       -0.033   0.033
+  std. dev.                                                                                                                                                                                                  0.8575  0.8776
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0019  0.0019
+
+-0.374SPINAL TAP.cpt+0.363HEMODIALYSIS.cpt+0.222furosemide.POIV.rx+0.215PULSATION BALLOON IMPLAN .cpt-0.214RESP TRACT INTUBAT NEC.cpt...
+  mean                                                                                                                                                                                                       -0.008   0.008
+  std. dev.                                                                                                                                                                                                  0.8637  0.8691
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+-0.457zolpidem tartrate.PO.rx+0.257lorazepam.MULTI.rx+0.235PULMON ART WEDGE MONITOR .cpt-0.22dopamine.IV.rx+0.211ENDOSCOPIC BRONCHIAL BX- .cpt...
+  mean                                                                                                                                                                                                       0.0219 -0.0219
+  std. dev.                                                                                                                                                                                                   0.876  0.8495
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0021  0.0021
+
+0.467levophed.IV.rx-0.243lisinopril.PO.rx-0.243neosynephrine.IV.rx+0.195phenytoin.POIV.rx+0.18 furosemide.POIV.rx...
+  mean                                                                                                                                                                                                      -0.0028  0.0028
+  std. dev.                                                                                                                                                                                                  0.8293  0.8841
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0015  0.0015
+
+-0.338levophed.IV.rx+0.298dopamine.IV.rx+0.271PULMON ART WEDGE MONITOR .cpt+0.249ENDOVASCULAR EMBOL/OCCLU .cpt-0.241THORACENTESIS.cpt...
+  mean                                                                                                                                                                                                       -0.001   0.001
+  std. dev.                                                                                                                                                                                                   0.873  0.8316
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0024  0.0024
+
+-0.416zolpidem tartrate.PO.rx+0.333nitroglycerin sl.PO.rx+0.227oxycodone.PO.rx-0.206vancomycin.IV.rx-0.202ondansetron.POIV.rx...
+  mean                                                                                                                                                                                                      -0.0108  0.0108
+  std. dev.                                                                                                                                                                                                  0.8786  0.8033
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0015  0.0015
+
+0.552age+0.258lorazepam.MULTI.rx-0.195levophed.IV.rx+0.184phenytoin.POIV.rx-0.176influenza virus vaccine.IM.rx...
+  mean                                                                                                                                                                                                       0.0186 -0.0186
+  std. dev.                                                                                                                                                                                                  0.7995  0.8729
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0014  0.0014
+
+-0.317PULSATION BALLOON IMPLAN .cpt-0.269ENDOSCOPIC BRONCHIAL BX- .cpt-0.24integrelin.IV.rx+0.238ethnicity=HISPANIC/LATINO - DOMINICAN-0.233ENDOVASCULAR EMBOL/OCCLU .cpt...
+  mean                                                                                                                                                                                                      -0.0296  0.0296
+  std. dev.                                                                                                                                                                                                  0.8098  0.8477
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0023  0.0023
+
+-0.279heparin.SC.rx-0.229nitroglycerine.IV.rx-0.222atropine sulfate.IV.rx+0.214piperacillin-tazobactam.IV.rx+0.211metoprolol.POIV.rx...
+  mean                                                                                                                                                                                                      -0.0056  0.0056
+  std. dev.                                                                                                                                                                                                   0.811    0.84
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0016  0.0016
+
+-0.472LEFT HEART CARDIAC CATH.cpt-0.376RT/LEFT HEART CARD CATH.cpt-0.339INJ/INF PLATELET INHIBIT .cpt+0.315CORONAR ARTERIOGR-1 CATH .cpt-0.24LT HEART ANGIOCARDIOGRAM .cpt...
+  mean                                                                                                                                                                                                      -0.0164  0.0164
+  std. dev.                                                                                                                                                                                                  0.8518  0.7537
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0041  0.0041
+
+0.4  VENOUS CATHETER NEC.cpt-0.343ARTERIAL CATHETERIZATION .cpt+0.264heparin.IV.rx-0.223cefazolin.IV.rx+0.221dopamine.IV.rx...
+  mean                                                                                                                                                                                                      -0.0062  0.0062
+  std. dev.                                                                                                                                                                                                  0.7906  0.8145
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0018  0.0018
+
+-0.29piperacillin-tazobactam.IV.rx-0.277PACKED CELL TRANSFUSION.cpt+0.275INSERT INTERCOSTAL CATH.cpt+0.258vancomycin.IV.rx-0.252ENDOSCOPIC BRONCHIAL BX- .cpt...
+  mean                                                                                                                                                                                                      -0.0048  0.0048
+  std. dev.                                                                                                                                                                                                  0.7817   0.801
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0017  0.0017
+
+-0.387morphine.MULTI.rx-0.313senna.PO.rx+0.307bisacodyl.POPR.rx+0.245line flush.IV.rx+0.241metoprolol.POIV.rx...
+  mean                                                                                                                                                                                                       0.0129 -0.0129
+  std. dev.                                                                                                                                                                                                  0.7484  0.8212
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0011  0.0011
+
+-0.418bisacodyl.POPR.rx+0.333metoprolol.POIV.rx+0.284acetaminophen.POPR.rx-0.253levofloxacin.POIV.rx+0.24 vancomycin.IV.rx...
+  mean                                                                                                                                                                                                       0.0046 -0.0046
+  std. dev.                                                                                                                                                                                                  0.7739  0.7671
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                   0.002   0.002
+
+0.498heparin.SC.rx-0.394heparin.IV.rx+0.28 phenytoin.POIV.rx-0.25morphine.MULTI.rx-0.242nitroglycerine.IV.rx...
+  mean                                                                                                                                                                                                       0.0166 -0.0166
+  std. dev.                                                                                                                                                                                                  0.7538  0.7729
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0013  0.0013
+
+0.514PACKED CELL TRANSFUSION.cpt-0.273heparin.IV.rx+0.246PULMON ART WEDGE MONITOR .cpt-0.198SERUM TRANSFUSION NEC.cpt-0.195THORACENTESIS.cpt...
+  mean                                                                                                                                                                                                       0.0195 -0.0195
+  std. dev.                                                                                                                                                                                                   0.759  0.7597
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0019  0.0019
+
+-0.336PACKED CELL TRANSFUSION.cpt+0.274propofol.IV.rx-0.257phenytoin.POIV.rx+0.251multivitamins.POIV.rx-0.251folic acid.POIV.rx...
+  mean                                                                                                                                                                                                       0.0094 -0.0094
+  std. dev.                                                                                                                                                                                                  0.7474  0.7609
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0014  0.0014
+
+0.478multivitamins.POIV.rx-0.459folic acid.POIV.rx-0.248propofol.IV.rx+0.243phenytoin.POIV.rx-0.233ondansetron.POIV.rx...
+  mean                                                                                                                                                                                                       0.0222 -0.0222
+  std. dev.                                                                                                                                                                                                  0.7537  0.7442
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0014  0.0014
+
+0.461insulin.SCIV.rx+0.28 propofol.IV.rx+0.278cefazolin.IV.rx-0.236famotidine.POIV.rx-0.203nitroglycerin sl.PO.rx...
+  mean                                                                                                                                                                                                       0.0186 -0.0186
+  std. dev.                                                                                                                                                                                                  0.7174  0.7551
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0011  0.0011
+
+0.329metoprolol.POIV.rx-0.298nitroglycerin sl.PO.rx-0.294acetaminophen.POPR.rx+0.265atorvastatin.PO.rx-0.239CONTRAST ARTERIOGRAM-LEG .cpt...
+  mean                                                                                                                                                                                                       0.0007 -0.0007
+  std. dev.                                                                                                                                                                                                  0.7711  0.6724
+  weight sum                                                                                                                                                                                                   4442    4442
+  precision                                                                                                                                                                                                  0.0018  0.0018
+
+
+
+Time taken to build model: 0.25 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4938               55.5831 %
+Incorrectly Classified Instances      3946               44.4169 %
+Kappa statistic                          0.1117
+Mean absolute error                      0.4559
+Root mean squared error                  0.5791
+Relative absolute error                 91.1894 %
+Root relative squared error            115.8297 %
+Total Number of Instances             8884     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.507     0.395      0.562     0.507     0.533      0.571    Y
+                 0.605     0.493      0.551     0.605     0.577      0.571    N
+Weighted Avg.    0.556     0.444      0.556     0.556     0.555      0.571
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2252 2190 |    a = Y
+ 1756 2686 |    b = N
+

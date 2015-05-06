@@ -1,0 +1,235 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     temporal.extract.14.2.first.3.hours.category.3.healthy.controls-weka.filters.unsupervised.attribute.Remove-R1-2-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.FirstOrder-weka.filters.unsupervised.attribute.AddExpression-Ea1^2-Nexpression
+Instances:    8884
+Attributes:   186
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=186 #classindex=184
+Network structure (nodes followed by parents)
+gender(2): Case 
+age(4): Case 
+ethnicity(31): Case 
+elix.index(1): Case 
+50112.min(1): Case 
+50112.median(1): Case 
+50112.max(1): Case 
+50399.min(3): Case 
+50399.median(3): Case 
+50399.max(3): Case 
+50440.min(2): Case 
+50440.median(2): Case 
+50440.max(2): Case 
+50439.min(3): Case 
+50439.median(3): Case 
+50439.max(3): Case 
+50428.min(4): Case 
+50428.median(4): Case 
+50428.max(4): Case 
+50444.min(4): Case 
+50444.median(4): Case 
+50444.max(4): Case 
+50412.min(3): Case 
+50412.median(3): Case 
+50412.max(3): Case 
+50411.min(4): Case 
+50411.median(3): Case 
+50411.max(4): Case 
+50413.min(3): Case 
+50413.median(3): Case 
+50413.max(3): Case 
+50383.min(4): Case 
+50383.max(4): Case 
+50383.median(4): Case 
+50386.min(4): Case 
+50386.median(4): Case 
+50386.max(4): Case 
+50442.min(5): Case 
+50442.median(3): Case 
+50442.max(5): Case 
+50468.min(3): Case 
+50468.median(3): Case 
+50468.max(3): Case 
+50068.min(2): Case 
+50068.median(2): Case 
+50068.max(2): Case 
+50172.min(3): Case 
+50172.median(3): Case 
+50172.max(3): Case 
+50083.min(1): Case 
+50083.median(1): Case 
+50083.max(1): Case 
+50149.min(1): Case 
+50149.median(1): Case 
+50149.max(2): Case 
+50159.min(3): Case 
+50159.median(3): Case 
+50159.max(3): Case 
+50090.min(3): Case 
+50090.median(3): Case 
+50090.max(3): Case 
+50177.min(3): Case 
+50177.median(3): Case 
+50177.max(4): Case 
+50333.min(3): Case 
+50333.median(3): Case 
+50333.max(3): Case 
+50373.min(3): Case 
+50373.median(3): Case 
+50373.max(3): Case 
+50417.min(3): Case 
+50417.median(3): Case 
+50417.max(3): Case 
+50408.min(3): Case 
+50408.median(3): Case 
+50408.max(3): Case 
+50419.min(3): Case 
+50419.median(3): Case 
+50419.max(3): Case 
+line flush.IV.rx(2): Case 
+heparin.IV.rx(2): Case 
+docusate.PO.rx(2): Case 
+acetaminophen.POPR.rx(2): Case 
+insulin.SCIV.rx(2): Case 
+pantoprazole.POIV.rx(2): Case 
+atorvastatin.PO.rx(2): Case 
+aspirin.POPR.rx(2): Case 
+senna.PO.rx(2): Case 
+bisacodyl.POPR.rx(2): Case 
+clopidogrel.PO.rx(2): Case 
+kcl.POIV.rx(2): Case 
+nitroglycerine.IV.rx(2): Case 
+nitroprusside.IV.rx(2): Case 
+furosemide.POIV.rx(2): Case 
+oxycodone.PO.rx(2): Case 
+metoprolol.POIV.rx(2): Case 
+phenytoin.POIV.rx(2): Case 
+cefazolin.IV.rx(2): Case 
+lisinopril.PO.rx(2): Case 
+propofol.IV.rx(2): Case 
+nitroglycerin sl.PO.rx(2): Case 
+atropine sulfate.IV.rx(2): Case 
+zolpidem tartrate.PO.rx(2): Case 
+morphine.MULTI.rx(2): Case 
+eptifibatide.IV.rx(2): Case 
+levofloxacin.POIV.rx(2): Case 
+lansoprazole.PO.rx(2): Case 
+calcium gluconate.IV.rx(2): Case 
+magnesium sulfate.IV.rx(2): Case 
+levothyroxine.POIV.rx(2): Case 
+glycopyrrolate.IV.rx(2): Case 
+neostigmine.IV.rx(2): Case 
+metoclopramide.POIV.rx(2): Case 
+midazolam.IV.rx(2): Case 
+ranitidine.PO.rx(2): Case 
+nitroglycerin.IV.rx(2): Case 
+phenylephrine.IV.rx(2): Case 
+meperidine.IVIM.rx(2): Case 
+sucralfate.PO.rx(2): Case 
+acetylcysteine.POIV.rx(2): Case 
+fentanyl.IV.rx(2): Case 
+ondansetron.POIV.rx(2): Case 
+dopamine.IV.rx(2): Case 
+vancomycin.IV.rx(2): Case 
+levophed.IV.rx(2): Case 
+integrelin.IV.rx(2): Case 
+lorazepam.MULTI.rx(2): Case 
+methylprednisolone.POIV.rx(2): Case 
+neosynephrine.IV.rx(2): Case 
+amiodarone.POIV.rx(2): Case 
+heparin.SC.rx(2): Case 
+metronidazole.POIV.rx(2): Case 
+tincture of opium.IH.rx(2): Case 
+albuterol.IH.rx(2): Case 
+phytonadione.MULTI.rx(2): Case 
+folic acid.POIV.rx(2): Case 
+multivitamins.POIV.rx(2): Case 
+famotidine.POIV.rx(2): Case 
+piperacillin-tazobactam.IV.rx(2): Case 
+simvastatin.PO.rx(2): Case 
+dextrose 50%.IV.rx(2): Case 
+influenza virus vaccine.IM.rx(2): Case 
+RT/LEFT HEART CARD CATH.cpt(2): Case 
+CORONAR ARTERIOGR-2 CATH .cpt(2): Case 
+LT HEART ANGIOCARDIOGRAM .cpt(2): Case 
+CONTINUOUS INVASIVE MECH .cpt(2): Case 
+SPINAL TAP.cpt(2): Case 
+INSERT ENDOTRACHEAL TUBE .cpt(2): Case 
+ARTERIAL CATHETERIZATION .cpt(2): Case 
+LEFT HEART CARDIAC CATH.cpt(2): Case 
+DX ULTRASOUND-HEART.cpt(2): Case 
+PERCUTANEOUS ABDOM DRAIN .cpt(2): Case 
+VENOUS CATHETER NEC.cpt(2): Case 
+ENDOVASCULAR EMBOL/OCCLU .cpt(2): Case 
+PULMON ART WEDGE MONITOR .cpt(2): Case 
+PERITONEAL ADHESIOLYSIS.cpt(2): Case 
+1 INT MAM-COR ART BYPASS .cpt(2): Case 
+(AORTO)CORONARY BYPASS T .cpt(2): Case 
+EXTRACORPOREAL CIRCULAT.cpt(2): Case 
+PULSATION BALLOON IMPLAN .cpt(2): Case 
+INJ/INF PLATELET INHIBIT .cpt(2): Case 
+PARENTERAL INFUS CONC NU .cpt(2): Case 
+SERUM TRANSFUSION NEC.cpt(2): Case 
+EXT INFUS CONC NUTRITION .cpt(2): Case 
+PTCA W/O THROMBOLYTIC AG .cpt(2): Case 
+INSERT CORON ARTER STENT .cpt(2): Case 
+HEMODIALYSIS.cpt(2): Case 
+SPINAL CANAL EXPLOR NEC.cpt(2): Case 
+PACKED CELL TRANSFUSION.cpt(2): Case 
+ANGIOPLASTY OR ATHERECTO .cpt(2): Case 
+CONTR CEREBR ARTERIOGRAM .cpt(2): Case 
+INSERT INTERCOSTAL CATH.cpt(2): Case 
+PLATELET TRANSFUSION.cpt(2): Case 
+SKIN SUTURE NEC.cpt(2): Case 
+INFUSION OF VASOPRESSOR.cpt(2): Case 
+CONTRAST ARTERIOGRAM-LEG .cpt(2): Case 
+SM BOWEL ENDOSCOPY NEC.cpt(2): Case 
+ENDOSCOPIC BRONCHIAL BX- .cpt(2): Case 
+RESP TRACT INTUBAT NEC.cpt(2): Case 
+NON-INVASIVE MECHANICAL.cpt(2): Case 
+CORONAR ARTERIOGR-1 CATH .cpt(2): Case 
+THORACENTESIS.cpt(2): Case 
+PERCUTANEOUS TRANSLUMINA .cpt(2): Case 
+INSERT DRUG-ELUT CORONA.cpt(2): Case 
+Case(2): 
+a1^2(1): Case 
+LogScore Bayes: -711491.0122167926
+LogScore BDeu: -712391.89551621
+LogScore MDL: -712732.2443179936
+LogScore ENTROPY: -710136.4762666746
+LogScore AIC: -710707.4762666746
+
+
+Time taken to build model: 0.61 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5389               60.6596 %
+Incorrectly Classified Instances      3495               39.3404 %
+Kappa statistic                          0.2132
+Mean absolute error                      0.396 
+Root mean squared error                  0.6042
+Relative absolute error                 79.2078 %
+Root relative squared error            120.8409 %
+Total Number of Instances             8884     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.493     0.28       0.638     0.493     0.556      0.636    Y
+                 0.72      0.507      0.587     0.72      0.647      0.636    N
+Weighted Avg.    0.607     0.393      0.612     0.607     0.601      0.636
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2192 2250 |    a = Y
+ 1245 3197 |    b = N
+

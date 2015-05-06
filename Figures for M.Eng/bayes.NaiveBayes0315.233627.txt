@@ -1,0 +1,909 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     Ethnicity_Casenotconverted.temporal.extract.14.2.first.1.hours.category.3.healthy.controls-weka.filters.unsupervised.attribute.Remove-R1-3-weka.filters.unsupervised.attribute.RemoveUseless-M99.0-weka.filters.unsupervised.attribute.AddExpression-Ea1^2-Nexpression-weka.filters.unsupervised.attribute.AddCluster-Wweka.clusterers.SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Instances:    8798
+Attributes:   140
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                      Class
+Attribute                                 Y        N
+                                      (0.5)    (0.5)
+=====================================================
+gender
+  mean                                2.5813   2.5563
+  std. dev.                           0.4952   0.5009
+  weight sum                            4399     4399
+  precision                                1        1
+
+age
+  mean                               65.8111  63.8897
+  std. dev.                          19.1857  23.4288
+  weight sum                            4399     4399
+  precision                            0.023    0.023
+
+ethnicity
+  WHITE                               3146.0   3037.0
+  UNKNOWN/NOT SPECIFIED                615.0    560.0
+  PATIENT DECLINED TO ANSWER            51.0     33.0
+  OTHER                                 75.0    108.0
+  HISPANIC OR LATINO                    86.0    109.0
+  BLACK/AFRICAN AMERICAN               270.0    401.0
+  ASIAN                                 61.0     75.0
+  MULTI RACE ETHNICITY                  12.0      8.0
+  HISPANIC/LATINO - PUERTO RICAN         9.0      5.0
+  WHITE - BRAZILIAN                      6.0      3.0
+  BLACK/HAITIAN                          4.0      3.0
+  ASIAN - ASIAN INDIAN                   8.0      3.0
+  BLACK/CAPE VERDEAN                     9.0     10.0
+  PORTUGUESE                             4.0      4.0
+  WHITE - RUSSIAN                        4.0      7.0
+  ASIAN - CHINESE                        6.0     11.0
+  ASIAN - VIETNAMESE                     3.0      3.0
+  WHITE - EASTERN EUROPEAN               3.0      1.0
+  UNABLE TO OBTAIN                      29.0     23.0
+  MIDDLE EASTERN                         3.0      1.0
+  AMERICAN INDIAN/ALASKA NATIVE          3.0      1.0
+  HISPANIC/LATINO - COLOMBIAN            2.0      1.0
+  WHITE - OTHER EUROPEAN                 8.0      3.0
+  ASIAN - FILIPINO                       2.0      1.0
+  ASIAN - OTHER                          2.0      1.0
+  HISPANIC/LATINO - CUBAN                3.0      1.0
+  HISPANIC/LATINO - DOMINICAN            2.0      4.0
+  ASIAN - KOREAN                         1.0      2.0
+  SOUTH AMERICAN                         1.0      3.0
+  HISPANIC/LATINO - GUATEMALAN           1.0      3.0
+  ASIAN - THAI                           1.0      2.0
+  CARIBBEAN ISLAND                       1.0      3.0
+  BLACK/AFRICAN                          1.0      2.0
+  [total]                             4432.0   4432.0
+
+elix.index
+  mean                                2.4903   2.4146
+  std. dev.                           1.7549   1.6967
+  weight sum                            4399     4399
+  precision                                1        1
+
+X50112.min
+  mean                                99.018 114.6364
+  std. dev.                         103.2281 114.2149
+  weight sum                            4399     4399
+  precision                           3.0526   3.0526
+
+X50112.median
+  mean                               99.1511 114.6866
+  std. dev.                         103.8535 114.2347
+  weight sum                            4399     4399
+  precision                           3.3789   3.3789
+
+X50112.max
+  mean                               99.2481 114.7539
+  std. dev.                         104.6008 114.3013
+  weight sum                            4399     4399
+  precision                           3.8758   3.8758
+
+X50399.min
+  mean                                0.4394   0.6043
+  std. dev.                           1.4806   1.3676
+  weight sum                            4399     4399
+  precision                           0.4494   0.4494
+
+X50399.median
+  mean                                0.3675   0.5599
+  std. dev.                           1.5955   1.4847
+  weight sum                            4399     4399
+  precision                           0.3859   0.3859
+
+X50399.max
+  mean                                0.4421    0.607
+  std. dev.                           1.4832   1.3738
+  weight sum                            4399     4399
+  precision                           0.4494   0.4494
+
+X50440.min
+  mean                               19.1609  20.1912
+  std. dev.                          25.1066   22.234
+  weight sum                            4399     4399
+  precision                           0.2555   0.2555
+
+X50440.median
+  mean                               19.2321  20.2268
+  std. dev.                          25.1922  22.2764
+  weight sum                            4399     4399
+  precision                           0.2488   0.2488
+
+X50440.max
+  mean                               19.2823  20.2429
+  std. dev.                          25.4031  22.3551
+  weight sum                            4399     4399
+  precision                           0.2551   0.2551
+
+X50439.min
+  mean                                8.1564   9.3922
+  std. dev.                           9.0963   9.2083
+  weight sum                            4399     4399
+  precision                           0.5374   0.5374
+
+X50439.median
+  mean                                8.1872   9.4151
+  std. dev.                           9.0831   9.1978
+  weight sum                            4399     4399
+  precision                           0.5119   0.5119
+
+X50439.max
+  mean                                8.1701   9.4038
+  std. dev.                           9.1124   9.2347
+  weight sum                            4399     4399
+  precision                           0.5393   0.5393
+
+X50428.min
+  mean                              184.1764 214.1265
+  std. dev.                          160.852  146.936
+  weight sum                            4399     4399
+  precision                            3.488    3.488
+
+X50428.median
+  mean                              184.2868 214.2802
+  std. dev.                         160.8943 146.9022
+  weight sum                            4399     4399
+  precision                           3.3663   3.3663
+
+X50428.max
+  mean                              184.4198 214.3818
+  std. dev.                         160.9553 146.8868
+  weight sum                            4399     4399
+  precision                            3.488    3.488
+
+X50444.min
+  mean                               10.2517  12.0104
+  std. dev.                           7.5109   6.2107
+  weight sum                            4399     4399
+  precision                           0.2021   0.2021
+
+X50444.median
+  mean                               10.3191   12.045
+  std. dev.                           7.4641   6.1355
+  weight sum                            4399     4399
+  precision                           0.4058   0.4058
+
+X50444.max
+  mean                               10.3242  12.0349
+  std. dev.                           7.5886   6.1401
+  weight sum                            4399     4399
+  precision                           0.8183   0.8183
+
+X50412.min
+  mean                               23.5086  28.0441
+  std. dev.                          15.8766  13.1129
+  weight sum                            4399     4399
+  precision                           0.3509   0.3509
+
+X50412.median
+  mean                               23.5728  28.0939
+  std. dev.                          15.8278  13.0733
+  weight sum                            4399     4399
+  precision                           0.3037   0.3037
+
+X50412.max
+  mean                               23.5129  28.0468
+  std. dev.                          15.8794  13.1142
+  weight sum                            4399     4399
+  precision                           0.3509   0.3509
+
+X50411.min
+  mean                               21.0469  25.1446
+  std. dev.                          14.4359  12.0128
+  weight sum                            4399     4399
+  precision                           0.2202   0.2202
+
+X50411.median
+  mean                               21.0856  25.1698
+  std. dev.                          14.3979  11.9818
+  weight sum                            4399     4399
+  precision                           0.2004   0.2004
+
+X50411.max
+  mean                               21.0514  25.1473
+  std. dev.                          14.4388  12.0142
+  weight sum                            4399     4399
+  precision                           0.2202   0.2202
+
+X50413.min
+  mean                               62.9487  74.5004
+  std. dev.                          42.0053  34.7315
+  weight sum                            4399     4399
+  precision                           1.6548   1.6548
+
+X50413.median
+  mean                               63.0229  74.5503
+  std. dev.                          41.9157  34.6608
+  weight sum                            4399     4399
+  precision                            1.433    1.433
+
+X50413.max
+  mean                               62.9111  74.4826
+  std. dev.                          41.9745  34.7199
+  weight sum                            4399     4399
+  precision                           1.6353   1.6353
+
+X50383.min
+  mean                               25.0329  30.0758
+  std. dev.                          16.8705  14.7701
+  weight sum                            4399     4399
+  precision                           0.1954   0.1954
+
+X50383.median
+  mean                               25.0628  30.1007
+  std. dev.                          16.8498  14.7477
+  weight sum                            4399     4399
+  precision                            0.184    0.184
+
+X50383.max
+  mean                               25.0574   30.107
+  std. dev.                          16.8869  14.7744
+  weight sum                            4399     4399
+  precision                           0.1974   0.1974
+
+X50386.min
+  mean                                8.0732  10.0055
+  std. dev.                           6.1046    5.362
+  weight sum                            4399     4399
+  precision                           0.1444   0.1444
+
+X50386.median
+  mean                                8.0711   10.005
+  std. dev.                           6.1145   5.3673
+  weight sum                            4399     4399
+  precision                            0.129    0.129
+
+X50386.max
+  mean                                8.0774  10.0112
+  std. dev.                           6.1138   5.3658
+  weight sum                            4399     4399
+  precision                           0.1463   0.1463
+
+X50442.min
+  mean                                2.4767   3.1901
+  std. dev.                           2.3217   2.0076
+  weight sum                            4399     4399
+  precision                           0.0187   0.0187
+
+X50442.median
+  mean                                 2.483   3.1946
+  std. dev.                           2.3145   2.0015
+  weight sum                            4399     4399
+  precision                            0.018    0.018
+
+X50442.max
+  mean                                2.4826    3.195
+  std. dev.                           2.3176   2.0037
+  weight sum                            4399     4399
+  precision                           0.0188   0.0188
+
+X50468.min
+  mean                                7.6558   9.7876
+  std. dev.                           9.3154   9.5523
+  weight sum                            4399     4399
+  precision                           0.6905   0.6905
+
+X50468.median
+  mean                                7.4806   9.6945
+  std. dev.                           9.4755   9.6665
+  weight sum                            4399     4399
+  precision                           0.6563   0.6563
+
+X50468.max
+  mean                                7.6667   9.8078
+  std. dev.                           9.3192   9.5606
+  weight sum                            4399     4399
+  precision                           0.6905   0.6905
+
+X50068.min
+  mean                               10.0574  11.7368
+  std. dev.                           8.5736   8.7218
+  weight sum                            4399     4399
+  precision                           1.2558   1.2558
+
+X50068.median
+  mean                               10.0067   11.637
+  std. dev.                           8.3494    8.512
+  weight sum                            4399     4399
+  precision                           1.0385   1.0385
+
+X50068.max
+  mean                               10.0048  11.6723
+  std. dev.                           8.5613   8.7019
+  weight sum                            4399     4399
+  precision                           1.2857   1.2857
+
+X50172.min
+  mean                               16.3653  17.8703
+  std. dev.                          12.8177   12.014
+  weight sum                            4399     4399
+  precision                           1.1277   1.1277
+
+X50172.median
+  mean                               16.4256   17.913
+  std. dev.                          12.7221  11.9263
+  weight sum                            4399     4399
+  precision                           0.9138   0.9138
+
+X50172.max
+  mean                               16.3758  17.8823
+  std. dev.                          12.8212  12.0166
+  weight sum                            4399     4399
+  precision                           1.1277   1.1277
+
+X50083.min
+  mean                               68.8988  75.7607
+  std. dev.                          47.9295  44.7654
+  weight sum                            4399     4399
+  precision                           2.1967   2.1967
+
+X50083.median
+  mean                               68.2914  75.2549
+  std. dev.                           48.712  45.4828
+  weight sum                            4399     4399
+  precision                           1.7403   1.7403
+
+X50083.max
+  mean                               68.9213  75.7672
+  std. dev.                          47.9468  44.7689
+  weight sum                            4399     4399
+  precision                           2.1967   2.1967
+
+X50149.min
+  mean                                2.6666   3.0288
+  std. dev.                           2.5139   2.4294
+  weight sum                            4399     4399
+  precision                            0.135    0.135
+
+X50149.median
+  mean                                2.6322   3.0038
+  std. dev.                           2.5592   2.4752
+  weight sum                            4399     4399
+  precision                           0.1049   0.1049
+
+X50149.max
+  mean                                2.6424   3.0203
+  std. dev.                            2.576   2.4968
+  weight sum                            4399     4399
+  precision                           0.1333   0.1333
+
+X50159.min
+  mean                                93.624 103.2802
+  std. dev.                          64.8015  60.4617
+  weight sum                            4399     4399
+  precision                           2.9661   2.9661
+
+X50159.median
+  mean                               93.3811 103.0353
+  std. dev.                          64.6254  60.3112
+  weight sum                            4399     4399
+  precision                           2.3333   2.3333
+
+X50159.max
+  mean                                93.256 102.8619
+  std. dev.                          64.5431   60.215
+  weight sum                            4399     4399
+  precision                           3.0172   3.0172
+
+X50090.min
+  mean                                0.9095   1.0514
+  std. dev.                           1.9285   1.7092
+  weight sum                            4399     4399
+  precision                           0.2395   0.2395
+
+X50090.median
+  mean                                0.8776   1.0288
+  std. dev.                           1.9567   1.7309
+  weight sum                            4399     4399
+  precision                           0.2102   0.2102
+
+X50090.max
+  mean                                0.9107   1.0524
+  std. dev.                           1.9298   1.7104
+  weight sum                            4399     4399
+  precision                           0.2395   0.2395
+
+X50177.min
+  mean                               20.0745  22.4227
+  std. dev.                           23.734  23.0187
+  weight sum                            4399     4399
+  precision                           1.5625   1.5625
+
+X50177.median
+  mean                                20.131  22.4681
+  std. dev.                          23.6863  22.9813
+  weight sum                            4399     4399
+  precision                           1.4045   1.4045
+
+X50177.max
+  mean                               20.0946  22.4372
+  std. dev.                          23.7491  23.0476
+  weight sum                            4399     4399
+  precision                           1.5723   1.5723
+
+heparin.IV.rx
+  mean                               -0.8243  -0.8284
+  std. dev.                            0.445   0.4305
+  weight sum                            4399     4399
+  precision                                1        1
+
+nitroprusside.IV.rx
+  mean                               -0.8481  -0.8425
+  std. dev.                           0.3664   0.3843
+  weight sum                            4399     4399
+  precision                                1        1
+
+nitroglycerine.IV.rx
+  mean                               -0.8366   -0.832
+  std. dev.                           0.4067   0.4192
+  weight sum                            4399     4399
+  precision                                1        1
+
+atorvastatin.PO.rx
+  mean                               -0.8386  -0.8397
+  std. dev.                           0.3999   0.3937
+  weight sum                            4399     4399
+  precision                                1        1
+
+furosemide.POIV.rx
+  mean                               -0.8425  -0.8452
+  std. dev.                           0.3867   0.3747
+  weight sum                            4399     4399
+  precision                                1        1
+
+oxycodone.PO.rx
+  mean                               -0.8434  -0.8454
+  std. dev.                           0.3835   0.3739
+  weight sum                            4399     4399
+  precision                                1        1
+
+line.flush.IV.rx
+  mean                               -0.8252  -0.8095
+  std. dev.                           0.4423   0.4849
+  weight sum                            4399     4399
+  precision                                1        1
+
+pantoprazole.POIV.rx
+  mean                               -0.8227  -0.8213
+  std. dev.                           0.4497   0.4517
+  weight sum                            4399     4399
+  precision                                1        1
+
+phenytoin.POIV.rx
+  mean                               -0.8468  -0.8397
+  std. dev.                           0.3714   0.3937
+  weight sum                            4399     4399
+  precision                                1        1
+
+propofol.IV.rx
+  mean                               -0.8325  -0.8229
+  std. dev.                           0.4199    0.447
+  weight sum                            4399     4399
+  precision                                1        1
+
+calcium.gluconate.IV.rx
+  mean                               -0.8468   -0.845
+  std. dev.                           0.3714   0.3755
+  weight sum                            4399     4399
+  precision                                1        1
+
+insulin.SCIV.rx
+  mean                               -0.8216   -0.822
+  std. dev.                           0.4531   0.4497
+  weight sum                            4399     4399
+  precision                                1        1
+
+fentanyl.IV.rx
+  mean                               -0.8452  -0.8354
+  std. dev.                           0.3771   0.4082
+  weight sum                            4399     4399
+  precision                                1        1
+
+kcl.POIV.rx
+  mean                               -0.8379  -0.8418
+  std. dev.                           0.4022   0.3867
+  weight sum                            4399     4399
+  precision                                1        1
+
+aspirin.POPR.rx
+  mean                               -0.8261  -0.8304
+  std. dev.                           0.4396   0.4242
+  weight sum                            4399     4399
+  precision                                1        1
+
+clopidogrel.PO.rx
+  mean                               -0.8411  -0.8413
+  std. dev.                           0.3914   0.3883
+  weight sum                            4399     4399
+  precision                                1        1
+
+acetaminophen.POPR.rx
+  mean                               -0.8279  -0.8225
+  std. dev.                            0.434   0.4484
+  weight sum                            4399     4399
+  precision                                1        1
+
+atropine.sulfate.IV.rx
+  mean                               -0.8395  -0.8406
+  std. dev.                           0.3968   0.3906
+  weight sum                            4399     4399
+  precision                                1        1
+
+levophed.IV.rx
+  mean                               -0.8459  -0.8438
+  std. dev.                           0.3747   0.3795
+  weight sum                            4399     4399
+  precision                                1        1
+
+dopamine.IV.rx
+  mean                               -0.8436  -0.8422
+  std. dev.                           0.3827   0.3851
+  weight sum                            4399     4399
+  precision                                1        1
+
+integrelin.IV.rx
+  mean                               -0.8397  -0.8377
+  std. dev.                           0.3961   0.4006
+  weight sum                            4399     4399
+  precision                                1        1
+
+cefazolin.IV.rx
+  mean                               -0.8454  -0.8472
+  std. dev.                           0.3763   0.3673
+  weight sum                            4399     4399
+  precision                                1        1
+
+methylprednisolone.POIV.rx
+  mean                               -0.8447  -0.8452
+  std. dev.                           0.3787   0.3747
+  weight sum                            4399     4399
+  precision                                1        1
+
+midazolam.IV.rx
+  mean                               -0.8463  -0.8397
+  std. dev.                            0.373   0.3937
+  weight sum                            4399     4399
+  precision                                1        1
+
+levothyroxine.POIV.rx
+  mean                               -0.8466  -0.8466
+  std. dev.                           0.3722   0.3698
+  weight sum                            4399     4399
+  precision                                1        1
+
+eptifibatide.IV.rx
+  mean                               -0.8454  -0.8431
+  std. dev.                           0.3763    0.382
+  weight sum                            4399     4399
+  precision                                1        1
+
+amiodarone.POIV.rx
+  mean                                -0.842  -0.8463
+  std. dev.                           0.3883   0.3706
+  weight sum                            4399     4399
+  precision                                1        1
+
+metronidazole.POIV.rx
+  mean                               -0.8443  -0.8441
+  std. dev.                           0.3803   0.3787
+  weight sum                            4399     4399
+  precision                                1        1
+
+metoprolol.POIV.rx
+  mean                               -0.8336   -0.835
+  std. dev.                           0.4163   0.4096
+  weight sum                            4399     4399
+  precision                                1        1
+
+levofloxacin.POIV.rx
+  mean                               -0.8447  -0.8418
+  std. dev.                           0.3787   0.3867
+  weight sum                            4399     4399
+  precision                                1        1
+
+albuterol.IH.rx
+  mean                               -0.8425  -0.8406
+  std. dev.                           0.3867   0.3906
+  weight sum                            4399     4399
+  precision                                1        1
+
+tincture.of.opium.IH.rx
+  mean                               -0.8436  -0.8436
+  std. dev.                           0.3827   0.3804
+  weight sum                            4399     4399
+  precision                                1        1
+
+vancomycin.IV.rx
+  mean                               -0.8445  -0.8438
+  std. dev.                           0.3795   0.3795
+  weight sum                            4399     4399
+  precision                                1        1
+
+magnesium.sulfate.IV.rx
+  mean                               -0.8413  -0.8443
+  std. dev.                           0.3906   0.3779
+  weight sum                            4399     4399
+  precision                                1        1
+
+bisacodyl.POPR.rx
+  mean                                -0.847  -0.8463
+  std. dev.                           0.3706   0.3706
+  weight sum                            4399     4399
+  precision                                1        1
+
+lorazepam.MULTI.rx
+  mean                               -0.8416  -0.8395
+  std. dev.                           0.3898   0.3945
+  weight sum                            4399     4399
+  precision                                1        1
+
+docusate.PO.rx
+  mean                               -0.8377   -0.835
+  std. dev.                           0.4029   0.4096
+  weight sum                            4399     4399
+  precision                                1        1
+
+nitroglycerin.IV.rx
+  mean                               -0.8463   -0.845
+  std. dev.                            0.373   0.3755
+  weight sum                            4399     4399
+  precision                                1        1
+
+neosynephrine.IV.rx
+  mean                               -0.8461  -0.8459
+  std. dev.                           0.3738   0.3722
+  weight sum                            4399     4399
+  precision                                1        1
+
+morphine.MULTI.rx
+  mean                               -0.8411  -0.8379
+  std. dev.                           0.3914   0.3999
+  weight sum                            4399     4399
+  precision                                1        1
+
+heparin.SC.rx
+  mean                               -0.8331  -0.8336
+  std. dev.                           0.4177   0.4141
+  weight sum                            4399     4399
+  precision                                1        1
+
+ondansetron.POIV.rx
+  mean                               -0.8461  -0.8463
+  std. dev.                           0.3738   0.3706
+  weight sum                            4399     4399
+  precision                                1        1
+
+senna.PO.rx
+  mean                               -0.8445  -0.8436
+  std. dev.                           0.3795   0.3804
+  weight sum                            4399     4399
+  precision                                1        1
+
+lisinopril.PO.rx
+  mean                               -0.8456  -0.8461
+  std. dev.                           0.3755   0.3714
+  weight sum                            4399     4399
+  precision                                1        1
+
+famotidine.POIV.rx
+  mean                               -0.8456  -0.8368
+  std. dev.                           0.3755   0.4037
+  weight sum                            4399     4399
+  precision                                1        1
+
+piperacillin.tazobactam.IV.rx
+  mean                               -0.8468  -0.8477
+  std. dev.                           0.3714   0.3656
+  weight sum                            4399     4399
+  precision                                1        1
+
+RT.LEFT.HEART.CARD.CATH.cpt
+  mean                               -0.9868   -0.977
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+CORONAR.ARTERIOGR.2.CATH..cpt
+  mean                               -0.9864  -0.9764
+  std. dev.                           0.1667   0.1676
+  weight sum                            4399     4399
+  precision                                1        1
+
+LT.HEART.ANGIOCARDIOGRAM..cpt
+  mean                               -0.9875   -0.977
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+SPINAL.TAP.cpt
+  mean                               -0.9877  -0.9784
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+VENOUS.CATHETER.NEC.cpt
+  mean                               -0.9859  -0.9732
+  std. dev.                           0.1667   0.1936
+  weight sum                            4399     4399
+  precision                                1        1
+
+DX.ULTRASOUND.HEART.cpt
+  mean                               -0.9875  -0.9789
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+EXTRACORPOREAL.CIRCULAT.cpt
+  mean                                -0.987  -0.9782
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+INSERT.ENDOTRACHEAL.TUBE..cpt
+  mean                               -0.9866  -0.9729
+  std. dev.                           0.1667   0.1953
+  weight sum                            4399     4399
+  precision                                1        1
+
+PTCA.W.O.THROMBOLYTIC.AG..cpt
+  mean                               -0.9877  -0.9775
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+PULSATION.BALLOON.IMPLAN..cpt
+  mean                               -0.9877  -0.9789
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+CONTINUOUS.INVASIVE.MECH..cpt
+  mean                               -0.9859  -0.9709
+  std. dev.                           0.1667   0.2102
+  weight sum                            4399     4399
+  precision                                1        1
+
+INJ.INF.PLATELET.INHIBIT..cpt
+  mean                               -0.9877  -0.9773
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+PACKED.CELL.TRANSFUSION.cpt
+  mean                               -0.9852  -0.9759
+  std. dev.                           0.1667   0.1715
+  weight sum                            4399     4399
+  precision                                1        1
+
+CONTR.CEREBR.ARTERIOGRAM..cpt
+  mean                                -0.988  -0.9784
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+HEMODIALYSIS.cpt
+  mean                               -0.9875  -0.9784
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+INSERT.INTERCOSTAL.CATH.cpt
+  mean                                -0.987  -0.9775
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+SERUM.TRANSFUSION.NEC.cpt
+  mean                                -0.988  -0.9779
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+SKIN.SUTURE.NEC.cpt
+  mean                               -0.9873  -0.9775
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+EXPLORATORY.LAPAROTOMY.cpt
+  mean                               -0.9875  -0.9782
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+EXT.INFUS.CONC.NUTRITION..cpt
+  mean                               -0.9873  -0.9775
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+ARTERIAL.CATHETERIZATION..cpt
+  mean                               -0.9882  -0.9768
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+LEFT.HEART.CARDIAC.CATH.cpt
+  mean                               -0.9877  -0.9777
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+PARENTERAL.INFUS.CONC.NU..cpt
+  mean                               -0.9877  -0.9784
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+SM.BOWEL.ENDOSCOPY.NEC.cpt
+  mean                               -0.9877  -0.9777
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+INSERT.DRUG.ELUT.CORONA.cpt
+  mean                                -0.988  -0.9784
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+ENDOSCOPIC.BRONCHIAL.BX...cpt
+  mean                                -0.988  -0.9784
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+INFUSION.OF.VASOPRESSOR.cpt
+  mean                               -0.9877  -0.9782
+  std. dev.                           0.1667   0.1667
+  weight sum                            4399     4399
+  precision                                1        1
+
+a1^2
+  mean                                6.3251   6.2251
+  std. dev.                           1.9808   2.0037
+  weight sum                            4399     4399
+  precision                                4        4
+
+cluster
+  cluster1                            3103.0   3668.0
+  cluster2                            1298.0    733.0
+  [total]                             4401.0   4401.0
+
+
+
+Time taken to build model: 0.31 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4965               56.4333 %
+Incorrectly Classified Instances      3833               43.5667 %
+Kappa statistic                          0.1287
+Mean absolute error                      0.437 
+Root mean squared error                  0.6529
+Relative absolute error                 87.3925 %
+Root relative squared error            130.5863 %
+Total Number of Instances             8798     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.318     0.19       0.627     0.318     0.422      0.576    Y
+                 0.81      0.682      0.543     0.81      0.65       0.576    N
+Weighted Avg.    0.564     0.436      0.585     0.564     0.536      0.576
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1401 2998 |    a = Y
+  835 3564 |    b = N
+
